@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4988529890262959458}
   - component: {fileID: 4188248424945035021}
   - component: {fileID: 2077665396057321094}
+  - component: {fileID: -1142711222606706383}
   - component: {fileID: 3596322355194766687}
   m_Layer: 0
   m_Name: Answer botton
@@ -149,6 +150,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 3596322355194766687}
   fallSpeed: 0.5
+--- !u!114 &-1142711222606706383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445751369549931532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e452f64609063f4d829335747de2bd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  answerIndex: 0
 --- !u!50 &3596322355194766687
 Rigidbody2D:
   serializedVersion: 5
