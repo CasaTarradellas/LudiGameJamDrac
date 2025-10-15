@@ -10,7 +10,11 @@ public class GameManager : MonoBehaviour
     private static List<Questions> unanswereQuestions;
     private Questions currentQuestion;
 
+    [SerializeField] private GameObject answerButtonPrefab;
     [SerializeField] private Text questionText;
+    [SerializeField]private Transform[] spawnPoints;
+    [SerializeField] private float timeBetweenQuestion = 5;
+
 
     void Start()
     {
@@ -30,7 +34,14 @@ public class GameManager : MonoBehaviour
 
         questionText.text = currentQuestion.question; 
 
-        unanswereQuestions.RemoveAt(randomQuestionIndex);
+    }
+
+    IEnumerator TransitionNextQuestion()
+    {
+        unanswereQuestions.Remove(currentQuestion);
+        yield return new WaitForSeconds(timeBetweenQuestion);
+
+        SetRandomQuestion();
     }
 
     public void userSelectedAnswer(int answerNumber)
@@ -38,10 +49,12 @@ public class GameManager : MonoBehaviour
         if (currentQuestion.correctAnswer == answerNumber)
         {
             Debug.Log("Correct");
+            StartCoroutine(TransitionNextQuestion());
         }
         else
         {
             Debug.Log("Wrong");
+            StartCoroutine(TransitionNextQuestion());
         }
     }
 }

@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-public class moveBotton : MonoBehaviour
+public class moveButton : MonoBehaviour
 {
 
     [SerializeField] private Rigidbody2D rb;
