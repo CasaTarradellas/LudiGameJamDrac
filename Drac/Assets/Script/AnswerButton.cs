@@ -4,15 +4,11 @@ using UnityEngine.UI;
 public class AnswerButton : MonoBehaviour
 {
     private GameManager gameManager;
-    private Button button;
-
     public int answerIndex;
 
     void Start()
     {
         gameManager = FindFirstObjectByType<GameManager>();
-        button = GetComponent<Button>();
-
     }
 
     public void SetAnswer(string answerText, int index)
@@ -24,7 +20,7 @@ public class AnswerButton : MonoBehaviour
             textComponent.text = answerText;
     }
 
-    void answerChosen()
+    public void answerChosen()
     {
         gameManager.userSelectedAnswer(answerIndex);
     }
