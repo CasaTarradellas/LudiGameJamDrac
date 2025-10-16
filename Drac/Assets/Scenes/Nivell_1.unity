@@ -623,33 +623,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questionArray:
-  - question: Xue es guapo
+  - question: 2+2
+    correctAnswer: 0
+    Answers:
+    - 4
+    - 3
+    - 1
+    - 10
+    - 6
+    - 7
+  - question: 2 x 3
+    correctAnswer: 5
+    Answers:
+    - 1
+    - 2
+    - 7
+    - 4
+    - 0
+    - 6
+  - question: 10-4
     correctAnswer: 1
     Answers:
-    - si lo es
-    - si lo es
-    - si lo es
-    - si lo es
-    - si lo es
-    - si lo es
-  - question: Guille es tonto
-    correctAnswer: 2
-    Answers:
-    - no lo es
-    - no lo es
-    - no lo es
-    - no lo es
-    - no lo es
-    - no lo es
-  - question: guille es alcoholico
-    correctAnswer: 3
-    Answers:
-    - si lo es
-    - si lo es
-    - si lo es
-    - si lo es
-    - si lo es
-    - si lo es
+    - 1
+    - 6
+    - 5
+    - 7
+    - 4
+    - 2
   answerButtonPrefab: {fileID: 445751369549931532, guid: 80ddeb5f007926f439fc735f3a9c80b7, type: 3}
   spawnPoints:
   - {fileID: 1751720882}
@@ -658,6 +658,7 @@ MonoBehaviour:
   - {fileID: 2062789654}
   - {fileID: 1943213387}
   - {fileID: 315428360}
+  buttonSpawnDelay: 2
   questionText: {fileID: 1790668046}
   timeBetweenQuestion: 3
 --- !u!1 &1751720881
