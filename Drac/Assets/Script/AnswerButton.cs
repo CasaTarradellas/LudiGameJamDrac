@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,11 +14,11 @@ public class AnswerButton : MonoBehaviour
 
     public void SetAnswer(string answerText, int index)
     {
-        answerIndex = index;
-
-        Text textComponent = GetComponentInChildren<Text>();
-        if (textComponent != null)
-            textComponent.text = answerText;
+        TextMeshProUGUI tmp = GetComponentInChildren<TextMeshProUGUI>();
+        if (tmp != null)
+            tmp.text = answerText;
+        else
+            Debug.LogWarning("TextMeshProUGUI component not found in button prefab!");
     }
 
     public void answerChosen()
