@@ -27,7 +27,6 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         SetRandomQuestion();
-        Debug.Log(currentQuestion.question + " is " + currentQuestion.correctAnswer);
     }
 
     void SetRandomQuestion()
@@ -53,29 +52,40 @@ public class GameManager : MonoBehaviour
                 Destroy(child.gameObject);
         }
 
+        int answerCount = currentQuestion.Answers.Length;
+        if (answerCount > spawnPoints.Length)
+        {
+            Debug.LogWarning("Not enough spawn points! Reducing button count to available spawn points.");
+            answerCount = spawnPoints.Length;
+        }
+
         List<Transform> shuffledSpawns = spawnPoints.OrderBy(x => Random.value).ToList();
-        int answerCount = Mathf.Min(currentQuestion.Answers.Length, shuffledSpawns.Count);
 
         StartCoroutine(SpawnButtonsCoroutine(answerCount, shuffledSpawns));
+
+        Debug.Log(currentQuestion.question + " is " + currentQuestion.correctAnswer);
     }
 
-    IEnumerator SpawnButtonsCoroutine(int answerCount, List<Transform> shuffledSpawns)
-{
-    for (int i = 0; i < answerCount; i++)
+
+       IEnumerator SpawnButtonsCoroutine(int answerCount, List<Transform> shuffledSpawns)
     {
-        GameObject newButton = Instantiate(answerButtonPrefab, shuffledSpawns[i]);
-        
-        RectTransform rect = newButton.GetComponent<RectTransform>();
-        rect.localPosition = Vector3.zero;
-        rect.localRotation = Quaternion.identity;
-        rect.localScale = Vector3.one;
+       for (int i = 0; i < answerCount; i++)
+       {
+            int answerIndex = i;
 
-        AnswerButton answerBtn = newButton.GetComponent<AnswerButton>();
-        answerBtn.SetAnswer(currentQuestion.Answers[i], i);
+            GameObject newButton = Instantiate(answerButtonPrefab, shuffledSpawns[i]);
 
-        yield return new WaitForSeconds(buttonSpawnDelay);
+            RectTransform rect = newButton.GetComponent<RectTransform>();
+            rect.localPosition = Vector3.zero;
+            rect.localRotation = Quaternion.identity;
+            rect.localScale = Vector3.one;
+
+            AnswerButton answerBtn = newButton.GetComponent<AnswerButton>();
+            answerBtn.SetAnswer(currentQuestion.Answers[answerIndex], answerIndex);
+
+            yield return new WaitForSeconds(buttonSpawnDelay);
+       }
     }
-}
 
     IEnumerator TransitionNextQuestion()
     {

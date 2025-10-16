@@ -633,7 +633,7 @@ MonoBehaviour:
     - 6
     - 7
   - question: 2 x 3
-    correctAnswer: 5
+    correctAnswer: 6
     Answers:
     - 1
     - 2
@@ -642,7 +642,7 @@ MonoBehaviour:
     - 0
     - 6
   - question: 10-4
-    correctAnswer: 1
+    correctAnswer: 2
     Answers:
     - 1
     - 6
@@ -658,7 +658,7 @@ MonoBehaviour:
   - {fileID: 2062789654}
   - {fileID: 1943213387}
   - {fileID: 315428360}
-  buttonSpawnDelay: 2
+  buttonSpawnDelay: 4
   questionText: {fileID: 1790668046}
   timeBetweenQuestion: 3
 --- !u!1 &1751720881
