@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
         if (unansweredQuestions == null || unansweredQuestions.Count == 0)
         {
             Debug.Log("All questions answered!");
-            return;
+            Application.Quit();
         }
 
         int randomQuestionIndex = Random.Range(0, unansweredQuestions.Count);
