@@ -633,19 +633,19 @@ MonoBehaviour:
     - 6
     - 7
   - question: 2 x 3
-    correctAnswer: 6
+    correctAnswer: 0
     Answers:
-    - 1
+    - 6
     - 2
     - 7
     - 4
     - 0
-    - 6
+    - 5
   - question: 10-4
-    correctAnswer: 2
+    correctAnswer: 0
     Answers:
-    - 1
     - 6
+    - 1
     - 5
     - 7
     - 4

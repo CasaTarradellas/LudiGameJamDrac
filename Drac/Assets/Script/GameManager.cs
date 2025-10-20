@@ -1,8 +1,9 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 
 public class GameManager : MonoBehaviour
 {
@@ -46,6 +47,7 @@ public class GameManager : MonoBehaviour
     }
     void SpawnAnswers()
     {
+ 
         foreach (Transform spawn in spawnPoints)
         {
             foreach (Transform child in spawn)
@@ -59,32 +61,34 @@ public class GameManager : MonoBehaviour
             answerCount = spawnPoints.Length;
         }
 
+   
+        List<string> shuffledAnswers = currentQuestion.Answers.OrderBy(x => Random.value).ToList();
         List<Transform> shuffledSpawns = spawnPoints.OrderBy(x => Random.value).ToList();
 
-        StartCoroutine(SpawnButtonsCoroutine(answerCount, shuffledSpawns));
+  
+        currentQuestion.correctAnswerIndex = shuffledAnswers.IndexOf(currentQuestion.Answers[0]);
 
-        Debug.Log(currentQuestion.question + " is " + currentQuestion.correctAnswer);
+        StartCoroutine(SpawnButtonsCoroutine(answerCount, shuffledAnswers, shuffledSpawns));
+
+        Debug.Log($"{currentQuestion.question} - Correct answer: {currentQuestion.Answers[0]} (spawn index {currentQuestion.correctAnswerIndex})");
     }
 
 
-       IEnumerator SpawnButtonsCoroutine(int answerCount, List<Transform> shuffledSpawns)
+    IEnumerator SpawnButtonsCoroutine(int answerCount, List<string> shuffledAnswers, List<Transform> shuffledSpawns)
     {
-       for (int i = 0; i < answerCount; i++)
-       {
-            int answerIndex = i;
-
+        for (int i = 0; i < answerCount; i++)
+        {
             GameObject newButton = Instantiate(answerButtonPrefab, shuffledSpawns[i]);
-
             RectTransform rect = newButton.GetComponent<RectTransform>();
             rect.localPosition = Vector3.zero;
             rect.localRotation = Quaternion.identity;
             rect.localScale = Vector3.one;
 
             AnswerButton answerBtn = newButton.GetComponent<AnswerButton>();
-            answerBtn.SetAnswer(currentQuestion.Answers[answerIndex], answerIndex);
+            answerBtn.SetAnswer(shuffledAnswers[i], i);
 
             yield return new WaitForSeconds(buttonSpawnDelay);
-       }
+        }
     }
 
     IEnumerator TransitionNextQuestion()
@@ -97,13 +101,24 @@ public class GameManager : MonoBehaviour
 
     public void userSelectedAnswer(int answerNumber)
     {
-        if (currentQuestion.correctAnswer == answerNumber)
+        foreach (Transform spawn in spawnPoints)
         {
-            Debug.Log("Correct");
+            foreach (Transform child in spawn)
+            {
+                Button btn = child.GetComponent<Button>();
+                if (btn != null)
+                    btn.interactable = false;
+            }
+        }
+
+    
+        if (answerNumber == currentQuestion.correctAnswerIndex)
+        {
+            Debug.Log("Correct!");
         }
         else
         {
-            Debug.Log("Wrong");
+            Debug.Log("Wrong!");
         }
 
         StartCoroutine(TransitionNextQuestion());
