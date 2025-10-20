@@ -29,17 +29,21 @@ public class AnswerButton : MonoBehaviour
         else
             Debug.LogWarning("TextMeshProUGUI component not found on AnswerButton prefab!");
     }
-
-    public void anwserChosen()
+    public void ClearOldAnswers()
     {
-        AnswerButton[] allButtons = FindObjectsByType<AnswerButton>(FindObjectsInactive.Exclude, sortMode: FindObjectsSortMode.None);
+        AnswerButton[] allButtons = FindObjectsByType<AnswerButton>(
+            FindObjectsInactive.Exclude,
+            sortMode: FindObjectsSortMode.None
+        );
 
         foreach (AnswerButton btn in allButtons)
         {
-            Button uiButton = btn.GetComponent<Button>();
-            if (uiButton != null)
-                uiButton.interactable = false;
+            Destroy(btn.gameObject);
         }
+    }
+    public void anwserChosen()
+    {
+        ClearOldAnswers();
 
         gameManager.userSelectedAnswer(answerIndex);
     }

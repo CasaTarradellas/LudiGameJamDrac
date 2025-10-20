@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
     }
     void SpawnAnswers()
     {
- 
+
         foreach (Transform spawn in spawnPoints)
         {
             foreach (Transform child in spawn)
