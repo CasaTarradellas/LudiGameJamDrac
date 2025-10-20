@@ -633,7 +633,6 @@ MonoBehaviour:
     - 7
     correctAnswerIndex: 0
   - question: 2 x 3
-    correctAnswer: 0
     Answers:
     - 6
     - 2
@@ -641,8 +640,8 @@ MonoBehaviour:
     - 4
     - 0
     - 5
+    correctAnswerIndex: 0
   - question: 10-4
-    correctAnswer: 0
     Answers:
     - 6
     - 1
