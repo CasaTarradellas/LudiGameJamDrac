@@ -188,10 +188,10 @@ RectTransform:
   - {fileID: 315428360}
   m_Father: {fileID: 1133450355}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.9495336}
+  m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 1649}
+  m_AnchoredPosition: {x: 0, y: -9.5}
+  m_SizeDelta: {x: 0, y: 1668}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &261994927
 MonoBehaviour:
@@ -624,7 +624,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionArray:
   - question: 2+2
-    correctAnswer: 0
     Answers:
     - 4
     - 3
@@ -632,24 +631,25 @@ MonoBehaviour:
     - 10
     - 6
     - 7
+    correctAnswerIndex: 0
   - question: 2 x 3
-    correctAnswer: 0
     Answers:
-    - 6
+    - 1
     - 2
     - 7
     - 4
     - 0
-    - 5
-  - question: 10-4
-    correctAnswer: 0
-    Answers:
     - 6
+    correctAnswerIndex: 0
+  - question: 10-4
+    Answers:
     - 1
+    - 6
     - 5
     - 7
     - 4
     - 2
+    correctAnswerIndex: 0
   answerButtonPrefab: {fileID: 445751369549931532, guid: 80ddeb5f007926f439fc735f3a9c80b7, type: 3}
   spawnPoints:
   - {fileID: 1751720882}
@@ -724,10 +724,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1621131494}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0014877, y: -0.0008316}
-  m_SizeDelta: {x: 691.88, y: 276.82}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.00036621094, y: 0.00062561035}
+  m_SizeDelta: {x: -0.11999512, y: -0.5849991}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1790668046
 MonoBehaviour:
@@ -751,7 +751,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 60
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
