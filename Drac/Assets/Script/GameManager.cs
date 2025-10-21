@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Text questionText;
     [SerializeField] private float timeBetweenQuestion = 5;
 
+    [SerializeField] GameObject GameOver;
+
     void Awake()
     {
         if (unansweredQuestions == null || unansweredQuestions.Count == 0)
@@ -35,7 +37,7 @@ public class GameManager : MonoBehaviour
         if (unansweredQuestions == null || unansweredQuestions.Count == 0)
         {
             Debug.Log("All questions answered!");
-            Application.Quit();
+            GameOver.SetActive(true);
         }
 
         int randomQuestionIndex = Random.Range(0, unansweredQuestions.Count);
