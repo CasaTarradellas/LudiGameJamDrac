@@ -32,6 +32,31 @@ public class GameManager : MonoBehaviour
         SetRandomQuestion();
     }
 
+    void Update()
+    {
+        int currentState = 0;
+        switch (currentState)
+        {
+            case 0:
+                //InitSentence();
+                break;
+            case 1:
+                //LoopSentence();
+                break;
+            case 2:
+                //WrongAnswer();
+                break;
+            case 3:
+                //RightAnswer();
+                break;
+            case 4:
+                //UpdateSentence();
+                break;
+            default:
+                break;
+        }
+    }
+
     void SetRandomQuestion()
     {
         if (unansweredQuestions == null || unansweredQuestions.Count == 0)
