@@ -262,6 +262,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 261994926}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &788215498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 788215500}
+  - component: {fileID: 788215499}
+  m_Layer: 0
+  m_Name: ------ Button Clicker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &788215499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788215498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8811b91e4873264d9fb9f711f10fd23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1148944638}
+--- !u!4 &788215500
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788215498}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1108851226
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,8 +709,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1634836252}
   - component: {fileID: 1634836253}
+  - component: {fileID: 1634836255}
+  - component: {fileID: 1634836254}
   m_Layer: 0
-  m_Name: GameManager
+  m_Name: ------ Game Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -726,7 +773,7 @@ MonoBehaviour:
     - 4
     - 2
     correctAnswerIndex: 0
-  answerButtonPrefab: {fileID: 445751369549931532, guid: 80ddeb5f007926f439fc735f3a9c80b7, type: 3}
+  answerButtonPrefab: {fileID: 7277294220157342939, guid: 5ff83a096fcf76f42a996ab1d2981eb8, type: 3}
   spawnPoints:
   - {fileID: 1751720882}
   - {fileID: 58400722}
@@ -736,8 +783,73 @@ MonoBehaviour:
   - {fileID: 315428360}
   buttonSpawnDelay: 4
   questionText: {fileID: 1790668046}
-  timeBetweenQuestion: 3
   GameOver: {fileID: 2125506526}
+  states:
+  - {fileID: 1634836254}
+  - {fileID: 1634836255}
+--- !u!114 &1634836254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634836251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4db20d2b2eb18541865dd7d387377cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionArray:
+  - question: 2+2
+    Answers:
+    - 4
+    - 3
+    - 1
+    - 10
+    - 6
+    - 7
+    correctAnswerIndex: 0
+  - question: 2 x 3
+    Answers:
+    - 6
+    - 2
+    - 7
+    - 4
+    - 0
+    - 5
+    correctAnswerIndex: 0
+  - question: 10-4
+    Answers:
+    - 6
+    - 1
+    - 5
+    - 7
+    - 4
+    - 2
+    correctAnswerIndex: 0
+  answerButtonPrefab: {fileID: 7277294220157342939, guid: 5ff83a096fcf76f42a996ab1d2981eb8, type: 3}
+  spawnPoints:
+  - {fileID: 1751720882}
+  - {fileID: 58400722}
+  - {fileID: 2034011080}
+  - {fileID: 2062789654}
+  - {fileID: 1943213387}
+  - {fileID: 315428360}
+  buttonSpawnDelay: 2
+  questionText: {fileID: 1790668046}
+  GameOver: {fileID: 2125506526}
+--- !u!114 &1634836255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634836251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525172786e6d3c24185228b870da26d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1751720881
 GameObject:
   m_ObjectHideFlags: 0
@@ -1264,8 +1376,9 @@ RectTransform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1634836252}
   - {fileID: 1148944639}
   - {fileID: 2125506530}
   - {fileID: 1133450355}
   - {fileID: 2084303333}
+  - {fileID: 788215500}
+  - {fileID: 1634836252}
