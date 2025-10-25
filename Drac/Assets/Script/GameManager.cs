@@ -49,7 +49,5 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Wrong!");
         }
-
-        //StartCoroutine(TransitionNextQuestion());
     }
 }

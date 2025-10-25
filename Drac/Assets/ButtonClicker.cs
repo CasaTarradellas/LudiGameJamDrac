@@ -3,7 +3,7 @@ using UnityEngine;
 public class ButtonClicker : MonoBehaviour
 {
     [SerializeField] private Camera cam;
-    // Update is called once per frame
+
     void Start()
     {
         cam = Camera.main;
