@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 63939e29a137fc74fbdf4fab57c8b9d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4595376684447337330
+    second: menu-de-selector_0002s_0012_planta_0
+  - first:
+      213: 5390061888554775692
+    second: menu-de-selector_0002s_0012_planta_1
+  - first:
+      213: -1789162616252499656
+    second: menu-de-selector_0002s_0012_planta_2
+  - first:
+      213: 3319842095256464342
+    second: menu-de-selector_0002s_0012_planta_3
+  - first:
+      213: 7776357890905657191
+    second: menu-de-selector_0002s_0012_planta_4
+  - first:
+      213: 1589998317161606261
+    second: menu-de-selector_0002s_0012_planta_5
+  - first:
+      213: 9193129290534061651
+    second: menu-de-selector_0002s_0012_planta_6
+  - first:
+      213: 1610955094775559156
+    second: menu-de-selector_0002s_0012_planta_7
+  - first:
+      213: -1638894135513942435
+    second: menu-de-selector_0002s_0012_planta_8
+  - first:
+      213: 5829253315359059249
+    second: menu-de-selector_0002s_0012_planta_9
+  - first:
+      213: -2421273770684143509
+    second: menu-de-selector_0002s_0012_planta_10
+  - first:
+      213: 1633755857494388134
+    second: menu-de-selector_0002s_0012_planta_11
+  - first:
+      213: -257638975517878947
+    second: menu-de-selector_0002s_0012_planta_12
+  - first:
+      213: 4682129127376371037
+    second: menu-de-selector_0002s_0012_planta_13
+  - first:
+      213: -4029112987710427474
+    second: menu-de-selector_0002s_0012_planta_14
+  - first:
+      213: -2743605366704405555
+    second: menu-de-selector_0002s_0012_planta_15
+  - first:
+      213: -7172532401931387889
+    second: menu-de-selector_0002s_0012_planta_16
+  - first:
+      213: 7241608010274894692
+    second: menu-de-selector_0002s_0012_planta_17
+  - first:
+      213: 104647444571422991
+    second: menu-de-selector_0002s_0012_planta_18
+  - first:
+      213: 9106136762350583076
+    second: menu-de-selector_0002s_0012_planta_19
+  - first:
+      213: 5785381119159348011
+    second: menu-de-selector_0002s_0012_planta_20
+  - first:
+      213: 8584252490005136144
+    second: menu-de-selector_0002s_0012_planta_21
+  - first:
+      213: -8492973379434212705
+    second: menu-de-selector_0002s_0012_planta_22
+  - first:
+      213: -6672097477338495087
+    second: menu-de-selector_0002s_0012_planta_23
+  - first:
+      213: 5673936310461722813
+    second: menu-de-selector_0002s_0012_planta_24
+  - first:
+      213: -8276145199415909383
+    second: menu-de-selector_0002s_0012_planta_25
+  - first:
+      213: -6735010307493302956
+    second: menu-de-selector_0002s_0012_planta_26
+  - first:
+      213: 2360078546138113630
+    second: menu-de-selector_0002s_0012_planta_27
+  - first:
+      213: -6388339695843033552
+    second: menu-de-selector_0002s_0012_planta_28
+  - first:
+      213: -4437232044209472703
+    second: menu-de-selector_0002s_0012_planta_29
+  - first:
+      213: 3774142196169727739
+    second: menu-de-selector_0002s_0012_planta_30
+  - first:
+      213: 126066776653899762
+    second: menu-de-selector_0002s_0012_planta_31
+  - first:
+      213: -7365601273119662475
+    second: menu-de-selector_0002s_0012_planta_32
+  - first:
+      213: -6179893130903669718
+    second: menu-de-selector_0002s_0012_planta_33
+  - first:
+      213: -2515708808962413936
+    second: menu-de-selector_0002s_0012_planta_34
+  - first:
+      213: -8352237984375344756
+    second: menu-de-selector_0002s_0012_planta_35
+  - first:
+      213: -5494754626674559068
+    second: menu-de-selector_0002s_0012_planta_36
+  - first:
+      213: 3046345644314938061
+    second: menu-de-selector_0002s_0012_planta_37
+  - first:
+      213: 5867699665000009291
+    second: menu-de-selector_0002s_0012_planta_38
+  - first:
+      213: -6378517917123765825
+    second: menu-de-selector_0002s_0012_planta_39
+  - first:
+      213: 9020374467309301139
+    second: menu-de-selector_0002s_0012_planta_40
+  - first:
+      213: -1093073401529545518
+    second: menu-de-selector_0002s_0012_planta_41
+  - first:
+      213: 1771137662479409174
+    second: menu-de-selector_0002s_0012_planta_42
+  - first:
+      213: -6341979636951535419
+    second: menu-de-selector_0002s_0012_planta_43
+  - first:
+      213: -3493211332921887140
+    second: menu-de-selector_0002s_0012_planta_44
+  - first:
+      213: 4066637962889103456
+    second: menu-de-selector_0002s_0012_planta_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1686
+        width: 99
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84776ab041f930c0800000000000000
+      internalID: -4595376684447337330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1796
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84bda8dab85dca40800000000000000
+      internalID: 5390061888554775692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1480
+        width: 642
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8397cd4741e9b27e0800000000000000
+      internalID: -1789162616252499656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_3
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1699
+        width: 61
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db662edbc2721e20800000000000000
+      internalID: 3319842095256464342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1594
+        width: 116
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fccb50d4c2beb60800000000000000
+      internalID: 7776357890905657191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1521
+        width: 65
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ce2e79b0fc01610800000000000000
+      internalID: 1589998317161606261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1530
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3568588e16e849f70800000000000000
+      internalID: 9193129290534061651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_7
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1501
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3f33d9f134b5610800000000000000
+      internalID: 1610955094775559156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1473
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56783c877a7149e0800000000000000
+      internalID: -1638894135513942435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1277
+        width: 99
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13daebf610ba5e050800000000000000
+      internalID: 5829253315359059249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1370
+        width: 87
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68a6628558e56ed0800000000000000
+      internalID: -2421273770684143509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_11
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1330
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6adaaafdb444ca610800000000000000
+      internalID: 1633755857494388134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_12
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1371
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5516ff77beac6cf0800000000000000
+      internalID: -257638975517878947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_13
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1248
+        width: 97
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d37c562a34af040800000000000000
+      internalID: 4682129127376371037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_14
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1283
+        width: 65
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae6b97b517b518c0800000000000000
+      internalID: -4029112987710427474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1226
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc38ab98471cce9d0800000000000000
+      internalID: -2743605366704405555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_16
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1285
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c76ea38cb067c90800000000000000
+      internalID: -7172532401931387889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_17
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 999
+        width: 363
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463fe0f1e1c5f7460800000000000000
+      internalID: 7241608010274894692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_18
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1203
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f010550eb48c37100800000000000000
+      internalID: 104647444571422991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1237
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d3804932f7f5e70800000000000000
+      internalID: 9106136762350583076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1192
+        width: 46
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2baeb1c97dc94050800000000000000
+      internalID: 5785381119159348011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_21
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1190
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013c4098824612770800000000000000
+      internalID: 8584252490005136144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1151
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9299f785b5e22a80800000000000000
+      internalID: -8492973379434212705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 946
+        width: 172
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1978574d1b2f763a0800000000000000
+      internalID: -6672097477338495087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_24
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1018
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0f247330fddbe40800000000000000
+      internalID: 5673936310461722813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_25
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 929
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3a24f3ac9352d80800000000000000
+      internalID: -8276145199415909383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_26
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 734
+        width: 360
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d64471fcf6882a0800000000000000
+      internalID: -6735010307493302956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_27
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 995
+        width: 59
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e562598feeea0c020800000000000000
+      internalID: 2360078546138113630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_28
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 839
+        width: 85
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ebfbcb4ee0857a0800000000000000
+      internalID: -6388339695843033552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_29
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 911
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bf9ea17f8cb62c0800000000000000
+      internalID: -4437232044209472703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_30
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 874
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe5286c452706430800000000000000
+      internalID: 3774142196169727739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 751
+        width: 76
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f72f60c011efb100800000000000000
+      internalID: 126066776653899762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_32
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 658
+        width: 100
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e998eaaa028c990800000000000000
+      internalID: -7365601273119662475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_33
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 694
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a243c9e90fb9c3aa0800000000000000
+      internalID: -6179893130903669718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_34
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 748
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a6973ca28661dd0800000000000000
+      internalID: -2515708808962413936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 472
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8178c52ec3e61c80800000000000000
+      internalID: -8352237984375344756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_36
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 307
+        width: 144
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7f02d87c5beb3b0800000000000000
+      internalID: -5494754626674559068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_37
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 571
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca4378293bc64a20800000000000000
+      internalID: 3046345644314938061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_38
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 439
+        width: 122
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e0105c1c14e6150800000000000000
+      internalID: 5867699665000009291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_39
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 397
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb99f5ccfb3fa77a0800000000000000
+      internalID: -6378517917123765825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_40
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 401
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d69f839cece2d70800000000000000
+      internalID: 9020374467309301139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_41
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 237
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc476c588f94d0f0800000000000000
+      internalID: -1093073401529545518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_42
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 253
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610a664f158549810800000000000000
+      internalID: 1771137662479409174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_43
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 259
+        width: 73
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c03eb61f13ccf7a0800000000000000
+      internalID: -6341979636951535419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_44
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 235
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5672dfecce958fc0800000000000000
+      internalID: -3493211332921887140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu-de-selector_0002s_0012_planta_45
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 117
+        width: 73
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0688f186ea99f6830800000000000000
+      internalID: 4066637962889103456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      menu-de-selector_0002s_0012_planta_0: -4595376684447337330
+      menu-de-selector_0002s_0012_planta_1: 5390061888554775692
+      menu-de-selector_0002s_0012_planta_10: -2421273770684143509
+      menu-de-selector_0002s_0012_planta_11: 1633755857494388134
+      menu-de-selector_0002s_0012_planta_12: -257638975517878947
+      menu-de-selector_0002s_0012_planta_13: 4682129127376371037
+      menu-de-selector_0002s_0012_planta_14: -4029112987710427474
+      menu-de-selector_0002s_0012_planta_15: -2743605366704405555
+      menu-de-selector_0002s_0012_planta_16: -7172532401931387889
+      menu-de-selector_0002s_0012_planta_17: 7241608010274894692
+      menu-de-selector_0002s_0012_planta_18: 104647444571422991
+      menu-de-selector_0002s_0012_planta_19: 9106136762350583076
+      menu-de-selector_0002s_0012_planta_2: -1789162616252499656
+      menu-de-selector_0002s_0012_planta_20: 5785381119159348011
+      menu-de-selector_0002s_0012_planta_21: 8584252490005136144
+      menu-de-selector_0002s_0012_planta_22: -8492973379434212705
+      menu-de-selector_0002s_0012_planta_23: -6672097477338495087
+      menu-de-selector_0002s_0012_planta_24: 5673936310461722813
+      menu-de-selector_0002s_0012_planta_25: -8276145199415909383
+      menu-de-selector_0002s_0012_planta_26: -6735010307493302956
+      menu-de-selector_0002s_0012_planta_27: 2360078546138113630
+      menu-de-selector_0002s_0012_planta_28: -6388339695843033552
+      menu-de-selector_0002s_0012_planta_29: -4437232044209472703
+      menu-de-selector_0002s_0012_planta_3: 3319842095256464342
+      menu-de-selector_0002s_0012_planta_30: 3774142196169727739
+      menu-de-selector_0002s_0012_planta_31: 126066776653899762
+      menu-de-selector_0002s_0012_planta_32: -7365601273119662475
+      menu-de-selector_0002s_0012_planta_33: -6179893130903669718
+      menu-de-selector_0002s_0012_planta_34: -2515708808962413936
+      menu-de-selector_0002s_0012_planta_35: -8352237984375344756
+      menu-de-selector_0002s_0012_planta_36: -5494754626674559068
+      menu-de-selector_0002s_0012_planta_37: 3046345644314938061
+      menu-de-selector_0002s_0012_planta_38: 5867699665000009291
+      menu-de-selector_0002s_0012_planta_39: -6378517917123765825
+      menu-de-selector_0002s_0012_planta_4: 7776357890905657191
+      menu-de-selector_0002s_0012_planta_40: 9020374467309301139
+      menu-de-selector_0002s_0012_planta_41: -1093073401529545518
+      menu-de-selector_0002s_0012_planta_42: 1771137662479409174
+      menu-de-selector_0002s_0012_planta_43: -6341979636951535419
+      menu-de-selector_0002s_0012_planta_44: -3493211332921887140
+      menu-de-selector_0002s_0012_planta_45: 4066637962889103456
+      menu-de-selector_0002s_0012_planta_5: 1589998317161606261
+      menu-de-selector_0002s_0012_planta_6: 9193129290534061651
+      menu-de-selector_0002s_0012_planta_7: 1610955094775559156
+      menu-de-selector_0002s_0012_planta_8: -1638894135513942435
+      menu-de-selector_0002s_0012_planta_9: 5829253315359059249
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
