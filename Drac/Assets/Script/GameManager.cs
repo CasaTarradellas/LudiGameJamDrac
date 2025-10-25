@@ -1,47 +1,55 @@
-using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
+using UnityEngine.UI;
+using static UnityEditor.VersionControl.Asset;
 
 public class GameManager : MonoBehaviour
 {
     public Questions[] questionArray;
-    private static List<Questions> unanswereQuestions;
+    private static List<Questions> unansweredQuestions;
     private Questions currentQuestion;
+
+    [SerializeField] private GameObject answerButtonPrefab;
+    [SerializeField] private Transform[] spawnPoints;
+    [SerializeField] private float buttonSpawnDelay = 2f;
 
     [SerializeField] private Text questionText;
 
+    [SerializeField] GameObject GameOver;
+
+    private List<AnswerButton> activeButtons = new List<AnswerButton>();
+
+    int currentState = 0;
+
+    [SerializeField] private BaseState[] states;
+
+
     void Start()
     {
-        if (unanswereQuestions == null || unanswereQuestions.Count == 0)
+        states[currentState].StartState();
+    }
+    void Update()
+    {
+        if (states[currentState].UpdateState())
         {
-            unanswereQuestions = questionArray.ToList<Questions>();
+            currentState = states[currentState].Finish();
+            states[currentState].StartState();
         }
-
-        SetRandomQuestion();
-        Debug.Log(currentQuestion.question + " is " + currentQuestion.correctAnswer);
     }
-
-    void SetRandomQuestion()
-    {
-        int randomQuestionIndex = Random.Range(0, unanswereQuestions.Count);
-        currentQuestion = unanswereQuestions[randomQuestionIndex];
-
-        questionText.text = currentQuestion.question; 
-
-        unanswereQuestions.RemoveAt(randomQuestionIndex);
-    }
-
+ 
     public void userSelectedAnswer(int answerNumber)
-    {
-        if (currentQuestion.correctAnswer == answerNumber)
+    {   
+        if (answerNumber == currentQuestion.correctAnswerIndex)
         {
-            Debug.Log("Correct");
+            Debug.Log("Correct!");
         }
         else
         {
-            Debug.Log("Wrong");
+            Debug.Log("Wrong!");
         }
+
+        //StartCoroutine(TransitionNextQuestion());
     }
 }
