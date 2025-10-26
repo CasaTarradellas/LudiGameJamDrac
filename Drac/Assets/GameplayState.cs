@@ -56,7 +56,7 @@ public class GameplayState : BaseState
 
         for (int i = 0; i < answerCount; i++)
         {
-            Debug.Log($"Spawning answer button");
+            Debug.Log("Spawning answer button");
 
             GameObject newButton = Instantiate(answerButtonPrefab, shuffledSpawns[i]);
             RectTransform rect = newButton.GetComponent<RectTransform>();
@@ -95,7 +95,6 @@ public class GameplayState : BaseState
                 Destroy(child.gameObject);
         }
         
-
         int answerCount = currentQuestion.Answers.Length;
         if (answerCount > spawnPoints.Length)
         {
@@ -109,5 +108,7 @@ public class GameplayState : BaseState
 
 
         currentQuestion.correctAnswerIndex = shuffledAnswers.IndexOf(currentQuestion.Answers[0]);
+
+        Debug.Log($"Correct answer '{currentQuestion.Answers[0]}' is now at index {currentQuestion.correctAnswerIndex}");
     }
 }
