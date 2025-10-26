@@ -8,6 +8,8 @@ public class AnswerButton : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI answerText;
 
+    private bool clicked = false;
+
     public void Initialize(GameManager manager, string answer, int index)
     {
         gameManager = manager;
@@ -17,6 +19,8 @@ public class AnswerButton : MonoBehaviour
 
     public void AnswerChosen()
     {
+        if (clicked) return;
+        clicked = true;
         gameManager.userSelectedAnswer(answerIndex);
     }
 }

@@ -21,19 +21,32 @@ public class ButtonClicker : MonoBehaviour
             OnTap(Input.touches[0].position);
         }
     }
-    void OnTap(Vector2 tapPostion)
+    void OnTap(Vector2 screenPosition)
     {
-        Vector2 gamePosition = cam.ScreenToWorldPoint(tapPostion);
-        Collider2D col = Physics2D.OverlapPoint(gamePosition);
+        if (cam == null) { Debug.LogWarning("No hay cámara asignada."); return; }
 
-        if (col == null)
+        Vector3 wp = cam.ScreenToWorldPoint(screenPosition);
+        Vector2 p = new Vector2(wp.x, wp.y);
+
+        RaycastHit2D hit = Physics2D.Raycast(p, Vector2.zero);
+
+        if (hit.collider == null)
+        {
+            Debug.Log("No has clicado nada.");
             return;
+        }
 
-        AnswerButton answerButton = col.GetComponent<AnswerButton>();
+        Debug.Log("Has clicado: " + hit.collider.name);
+
+        var answerButton = hit.collider.GetComponent<AnswerButton>();
         if (answerButton != null)
         {
-            //I clicked a button;
             answerButton.AnswerChosen();
+        }
+        else
+        {
+            answerButton = hit.collider.GetComponentInParent<AnswerButton>();
+            if (answerButton != null) answerButton.AnswerChosen();
         }
     }
 }

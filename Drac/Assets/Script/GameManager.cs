@@ -7,7 +7,7 @@ using static UnityEditor.VersionControl.Asset;
 
 public class GameManager : MonoBehaviour
 {
-    private GameplayState gameplayState;
+    [SerializeField] private GameplayState gameplayState;
 
     int currentState = 0;
 
@@ -28,14 +28,10 @@ public class GameManager : MonoBehaviour
     }
  
     public void userSelectedAnswer(int answerNumber)
-    {   
-        if (answerNumber == gameplayState.currentQuestion.correctAnswerIndex)
-        {
-            Debug.Log("Correct!");
-        }
+    {
+        if (gameplayState != null)
+            gameplayState.OnAnswerSelected(answerNumber);
         else
-        {
-            Debug.Log("Wrong!");
-        }
+            Debug.LogWarning("GameplayState no asignado en GameManager.");
     }
 }
