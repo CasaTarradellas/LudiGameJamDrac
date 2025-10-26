@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2b18cf9be72cc6d4da8fd6e04ffaca59
+guid: 5da1bbf3b96f06c468e4244aea52f1c3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5959719915764819892
-    second: MENU-PRINCIPAL_0003s_0003_FONDO-DE--JUGAR_0
+      213: -6883730826443275722
+    second: menu-de-selector_0002s_0002_ajustes_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -152,12 +152,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MENU-PRINCIPAL_0003s_0003_FONDO-DE--JUGAR_0
+      name: menu-de-selector_0002s_0002_ajustes_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 377
+        width: 118
         height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -167,8 +167,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b7abfbffad25b250800000000000000
-      internalID: 5959719915764819892
+      spriteID: 6324170f8431870a0800000000000000
+      internalID: -6883730826443275722
       vertices: []
       indices: 
       edges: []
@@ -187,7 +187,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MENU-PRINCIPAL_0003s_0003_FONDO-DE--JUGAR_0: 5959719915764819892
+      menu-de-selector_0002s_0002_ajustes_0: -6883730826443275722
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
