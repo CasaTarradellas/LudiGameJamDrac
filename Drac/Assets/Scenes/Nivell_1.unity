@@ -190,7 +190,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -9.5}
+  m_AnchoredPosition: {x: 0, y: 3}
   m_SizeDelta: {x: 0, y: 1668}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &261994927
@@ -745,45 +745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e4ce66226d5cd54a8ea92c2d8c6db2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionArray:
-  - question: 2+2
-    Answers:
-    - 4
-    - 3
-    - 1
-    - 10
-    - 6
-    - 7
-    correctAnswerIndex: 0
-  - question: 2 x 3
-    Answers:
-    - 6
-    - 2
-    - 7
-    - 4
-    - 0
-    - 5
-    correctAnswerIndex: 0
-  - question: 10-4
-    Answers:
-    - 6
-    - 1
-    - 5
-    - 7
-    - 4
-    - 2
-    correctAnswerIndex: 0
-  answerButtonPrefab: {fileID: 7277294220157342939, guid: 5ff83a096fcf76f42a996ab1d2981eb8, type: 3}
-  spawnPoints:
-  - {fileID: 1751720882}
-  - {fileID: 58400722}
-  - {fileID: 2034011080}
-  - {fileID: 2062789654}
-  - {fileID: 1943213387}
-  - {fileID: 315428360}
-  buttonSpawnDelay: 4
-  questionText: {fileID: 1790668046}
-  GameOver: {fileID: 2125506526}
+  gameplayState: {fileID: 1634836254}
   states:
   - {fileID: 1634836254}
   - {fileID: 1634836255}
@@ -799,6 +761,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4db20d2b2eb18541865dd7d387377cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 1634836253}
+  answerButtonPrefab: {fileID: 7277294220157342939, guid: 5ff83a096fcf76f42a996ab1d2981eb8, type: 3}
+  spawnPoints:
+  - {fileID: 1751720882}
+  - {fileID: 58400722}
+  - {fileID: 2034011080}
+  - {fileID: 2062789654}
+  - {fileID: 1943213387}
+  - {fileID: 315428360}
+  questionText: {fileID: 1790668046}
+  GameOver: {fileID: 2125506526}
+  spawnDelay: 2
   questionArray:
   - question: 2+2
     Answers:
@@ -827,17 +801,12 @@ MonoBehaviour:
     - 4
     - 2
     correctAnswerIndex: 0
-  answerButtonPrefab: {fileID: 7277294220157342939, guid: 5ff83a096fcf76f42a996ab1d2981eb8, type: 3}
-  spawnPoints:
-  - {fileID: 1751720882}
-  - {fileID: 58400722}
-  - {fileID: 2034011080}
-  - {fileID: 2062789654}
-  - {fileID: 1943213387}
-  - {fileID: 315428360}
-  buttonSpawnDelay: 2
-  questionText: {fileID: 1790668046}
-  GameOver: {fileID: 2125506526}
+  currentQuestion:
+    question: 
+    Answers: []
+    correctAnswerIndex: 0
+  activeButtons: []
+  nextQuestionDelay: 0.6
 --- !u!114 &1634836255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -850,6 +819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 525172786e6d3c24185228b870da26d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameplayState: {fileID: 1634836254}
 --- !u!1 &1751720881
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,19 +7,7 @@ using static UnityEditor.VersionControl.Asset;
 
 public class GameManager : MonoBehaviour
 {
-    public Questions[] questionArray;
-    private static List<Questions> unansweredQuestions;
-    private Questions currentQuestion;
-
-    [SerializeField] private GameObject answerButtonPrefab;
-    [SerializeField] private Transform[] spawnPoints;
-    [SerializeField] private float buttonSpawnDelay = 2f;
-
-    [SerializeField] private Text questionText;
-
-    [SerializeField] GameObject GameOver;
-
-    private List<AnswerButton> activeButtons = new List<AnswerButton>();
+    [SerializeField] private GameplayState gameplayState;
 
     int currentState = 0;
 
@@ -40,16 +28,10 @@ public class GameManager : MonoBehaviour
     }
  
     public void userSelectedAnswer(int answerNumber)
-    {   
-        if (answerNumber == currentQuestion.correctAnswerIndex)
-        {
-            Debug.Log("Correct!");
-        }
+    {
+        if (gameplayState != null)
+            gameplayState.OnAnswerSelected(answerNumber);
         else
-        {
-            Debug.Log("Wrong!");
-        }
-
-        //StartCoroutine(TransitionNextQuestion());
+            Debug.LogWarning("GameplayState no asignado en GameManager.");
     }
 }

@@ -1,7 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Drac/Assets/AnswerButton.prefab.meta
+guid: 5ff83a096fcf76f42a996ab1d2981eb8
+PrefabImporter:
+========
 guid: a99b6d53bc9908745a1f622871058bbb
 folderAsset: yes
 DefaultImporter:
+>>>>>>>> xuezhi:Drac/Assets/Prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
