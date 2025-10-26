@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class FinishState : BaseState
 {
+    private GameplayState gameplayState;
+
     private float currentTime;
     [SerializeField] private const float timeBetweenQuestion = 5;
     public override void StartState()
@@ -19,16 +21,16 @@ public class FinishState : BaseState
     }
     void TransitionNextQuestion()
     {
-        //unansweredQuestions.Remove(currentQuestion);
-        //ClearOldAnswers();
+        GameplayState.unansweredQuestions.Remove(gameplayState.currentQuestion);
+        ClearOldAnswers();
         //SFX donde me cargo los botones.
-        //SetRandomQuestion();
+        Finish();
     }
     public void ClearOldAnswers()
     {
-        //for (int i = activeButtons.Count - 1; i >= 0; i--)
-        //{
-        //    Destroy(activeButtons[i].gameObject);
-        //}
+        for (int i = gameplayState.activeButtons.Count - 1; i >= 0; i--)
+        {
+            Destroy(gameplayState.activeButtons[i].gameObject);
+        }
     }
 }
