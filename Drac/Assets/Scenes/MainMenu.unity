@@ -2380,9 +2380,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
 =======
+=======
+>>>>>>> origin/Guillem
   m_Sprite: {fileID: 5959719915764819892, guid: 2b18cf9be72cc6d4da8fd6e04ffaca59, type: 3}
   m_Type: 0
 >>>>>>> f2124d37 (a)
