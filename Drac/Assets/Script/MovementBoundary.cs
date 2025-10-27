@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MovementBoundary : MonoBehaviour
 {
-    [SerializeField] private Canvas canvas;
+    [SerializeField] Canvas canvas;
     private Vector2 movementBounds;
 
     private float h;
@@ -11,7 +11,7 @@ public class MovementBoundary : MonoBehaviour
     void Start()
     {
         h = canvas.GetComponent<RectTransform>().rect.height;
-        w = canvas.GetComponent<RectTransform>().rect.width;
+        w = canvas.GetComponent<RectTransform>().rect.width; 
         movementBounds = Camera.main.ScreenToWorldPoint(new Vector3(w, h, Camera.main.transform.position.z));
     }
 
