@@ -14,7 +14,6 @@ public class DragonMove : MonoBehaviour
     }
     private void FollowMouse()
     {
-        Debug.Log(GetWorldPos());
         transform.position = GetWorldPos();
     }
 

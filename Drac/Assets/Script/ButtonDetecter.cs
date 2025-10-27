@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ButtonClicker : MonoBehaviour
+public class ButtonDetecter : MonoBehaviour
 {
     [SerializeField] private Camera cam;
 
