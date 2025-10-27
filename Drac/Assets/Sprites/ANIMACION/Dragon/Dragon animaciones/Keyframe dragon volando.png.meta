@@ -83,9 +83,6 @@ TextureImporter:
   - first:
       213: -6840892698459812533
     second: Keyframe dragon volando_26
-  - first:
-      213: 4668252068174149028
-    second: Keyframe dragon volando_27
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,7 +115,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -165,7 +162,59 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -184,10 +233,10 @@ TextureImporter:
       name: Keyframe dragon volando_0
       rect:
         serializedVersion: 2
-        x: 633
-        y: 7494
-        width: 1096
-        height: 1112
+        x: 15
+        y: 1024
+        width: 502
+        height: 509
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,10 +255,10 @@ TextureImporter:
       name: Keyframe dragon volando_1
       rect:
         serializedVersion: 2
-        x: 1797
-        y: 7516
-        width: 1100
-        height: 1111
+        x: 546
+        y: 1025
+        width: 503
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +277,10 @@ TextureImporter:
       name: Keyframe dragon volando_2
       rect:
         serializedVersion: 2
-        x: 2985
-        y: 7503
-        width: 1105
-        height: 1105
+        x: 1076
+        y: 1028
+        width: 506
+        height: 505
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +299,10 @@ TextureImporter:
       name: Keyframe dragon volando_3
       rect:
         serializedVersion: 2
-        x: 4190
-        y: 7509
-        width: 1118
-        height: 1095
+        x: 1604
+        y: 1032
+        width: 511
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +321,10 @@ TextureImporter:
       name: Keyframe dragon volando_4
       rect:
         serializedVersion: 2
-        x: 5427
-        y: 7515
-        width: 1129
-        height: 1084
+        x: 2132
+        y: 1037
+        width: 516
+        height: 495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +343,10 @@ TextureImporter:
       name: Keyframe dragon volando_5
       rect:
         serializedVersion: 2
-        x: 6671
-        y: 7562
-        width: 1139
-        height: 1072
+        x: 2660
+        y: 1042
+        width: 521
+        height: 490
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,10 +365,10 @@ TextureImporter:
       name: Keyframe dragon volando_6
       rect:
         serializedVersion: 2
-        x: 559
-        y: 6346
-        width: 1147
-        height: 1061
+        x: 3189
+        y: 1047
+        width: 525
+        height: 485
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +387,10 @@ TextureImporter:
       name: Keyframe dragon volando_7
       rect:
         serializedVersion: 2
-        x: 1806
-        y: 6389
-        width: 1155
-        height: 1065
+        x: 3719
+        y: 1046
+        width: 527
+        height: 486
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +409,10 @@ TextureImporter:
       name: Keyframe dragon volando_8
       rect:
         serializedVersion: 2
-        x: 3036
-        y: 6395
-        width: 1159
-        height: 1078
+        x: 4249
+        y: 1040
+        width: 530
+        height: 492
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +431,10 @@ TextureImporter:
       name: Keyframe dragon volando_9
       rect:
         serializedVersion: 2
-        x: 4295
-        y: 6382
-        width: 1160
-        height: 1091
+        x: 4780
+        y: 1034
+        width: 530
+        height: 498
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +453,10 @@ TextureImporter:
       name: Keyframe dragon volando_10
       rect:
         serializedVersion: 2
-        x: 5597
-        y: 6381
-        width: 1154
-        height: 1102
+        x: 2
+        y: 518
+        width: 528
+        height: 503
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +475,10 @@ TextureImporter:
       name: Keyframe dragon volando_11
       rect:
         serializedVersion: 2
-        x: 6833
-        y: 6345
-        width: 1145
-        height: 1109
+        x: 535
+        y: 514
+        width: 524
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,10 +497,10 @@ TextureImporter:
       name: Keyframe dragon volando_12
       rect:
         serializedVersion: 2
-        x: 513
-        y: 5147
-        width: 1132
-        height: 1114
+        x: 1070
+        y: 513
+        width: 518
+        height: 509
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +519,10 @@ TextureImporter:
       name: Keyframe dragon volando_13
       rect:
         serializedVersion: 2
-        x: 1767
-        y: 5129
-        width: 1111
-        height: 1113
+        x: 1607
+        y: 513
+        width: 509
+        height: 509
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,10 +541,10 @@ TextureImporter:
       name: Keyframe dragon volando_14
       rect:
         serializedVersion: 2
-        x: 2990
-        y: 5106
-        width: 1095
-        height: 1107
+        x: 2143
+        y: 516
+        width: 501
+        height: 506
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,10 +563,10 @@ TextureImporter:
       name: Keyframe dragon volando_15
       rect:
         serializedVersion: 2
-        x: 4204
-        y: 5125
-        width: 1076
-        height: 1098
+        x: 2679
+        y: 520
+        width: 492
+        height: 502
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,10 +585,10 @@ TextureImporter:
       name: Keyframe dragon volando_16
       rect:
         serializedVersion: 2
-        x: 5463
-        y: 5136
-        width: 1061
-        height: 1087
+        x: 3214
+        y: 525
+        width: 485
+        height: 496
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,10 +607,10 @@ TextureImporter:
       name: Keyframe dragon volando_17
       rect:
         serializedVersion: 2
-        x: 6744
-        y: 5144
-        width: 1055
-        height: 1088
+        x: 3746
+        y: 525
+        width: 482
+        height: 496
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,10 +629,10 @@ TextureImporter:
       name: Keyframe dragon volando_18
       rect:
         serializedVersion: 2
-        x: 538
-        y: 3938
-        width: 1055
-        height: 1090
+        x: 4276
+        y: 524
+        width: 483
+        height: 497
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,10 +651,10 @@ TextureImporter:
       name: Keyframe dragon volando_19
       rect:
         serializedVersion: 2
-        x: 1815
-        y: 3927
-        width: 1057
-        height: 1092
+        x: 4806
+        y: 523
+        width: 484
+        height: 498
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +673,10 @@ TextureImporter:
       name: Keyframe dragon volando_20
       rect:
         serializedVersion: 2
-        x: 3006
-        y: 3905
-        width: 1061
-        height: 1095
+        x: 26
+        y: 10
+        width: 486
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +695,10 @@ TextureImporter:
       name: Keyframe dragon volando_21
       rect:
         serializedVersion: 2
-        x: 4224
-        y: 3921
-        width: 1066
-        height: 1098
+        x: 555
+        y: 9
+        width: 488
+        height: 501
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,10 +717,10 @@ TextureImporter:
       name: Keyframe dragon volando_22
       rect:
         serializedVersion: 2
-        x: 5460
-        y: 3965
-        width: 1072
-        height: 1101
+        x: 1084
+        y: 7
+        width: 490
+        height: 503
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,10 +739,10 @@ TextureImporter:
       name: Keyframe dragon volando_23
       rect:
         serializedVersion: 2
-        x: 6725
-        y: 4001
-        width: 1078
-        height: 1103
+        x: 1613
+        y: 6
+        width: 493
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,10 +761,10 @@ TextureImporter:
       name: Keyframe dragon volando_24
       rect:
         serializedVersion: 2
-        x: 533
-        y: 2756
-        width: 1083
-        height: 1106
+        x: 2142
+        y: 5
+        width: 495
+        height: 505
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -734,10 +783,10 @@ TextureImporter:
       name: Keyframe dragon volando_25
       rect:
         serializedVersion: 2
-        x: 1809
-        y: 2764
-        width: 1086
-        height: 1108
+        x: 2671
+        y: 4
+        width: 497
+        height: 506
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,10 +805,10 @@ TextureImporter:
       name: Keyframe dragon volando_26
       rect:
         serializedVersion: 2
-        x: 3009
-        y: 2753
-        width: 1088
-        height: 1109
+        x: 3201
+        y: 4
+        width: 498
+        height: 507
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -770,28 +819,6 @@ TextureImporter:
       bones: []
       spriteID: b4d4db9d5544011a0800000000000000
       internalID: -6840892698459812533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Keyframe dragon volando_27
-      rect:
-        serializedVersion: 2
-        x: 4270
-        y: 2752
-        width: 1086
-        height: 1110
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a5b085c586f8c040800000000000000
-      internalID: 4668252068174149028
       vertices: []
       indices: 
       edges: []
@@ -830,7 +857,6 @@ TextureImporter:
       Keyframe dragon volando_24: -5073430491337311344
       Keyframe dragon volando_25: 2777800629449734545
       Keyframe dragon volando_26: -6840892698459812533
-      Keyframe dragon volando_27: 4668252068174149028
       Keyframe dragon volando_3: 6149983891538004504
       Keyframe dragon volando_4: -2320909608997073325
       Keyframe dragon volando_5: -3852429352439855975

@@ -158,6 +158,12 @@ TextureImporter:
   - first:
       213: 8279600901684301789
     second: keyframes cabeza_51
+  - first:
+      213: -6066178077917705204
+    second: keyframes cabeza_52
+  - first:
+      213: 7512126948104566674
+    second: keyframes cabeza_53
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -190,7 +196,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -237,7 +243,59 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -256,10 +314,10 @@ TextureImporter:
       name: keyframes cabeza_0
       rect:
         serializedVersion: 2
-        x: 205
-        y: 8830
-        width: 599
-        height: 529
+        x: 32
+        y: 1284
+        width: 273
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,10 +336,10 @@ TextureImporter:
       name: keyframes cabeza_1
       rect:
         serializedVersion: 2
-        x: 873
-        y: 8830
-        width: 609
-        height: 527
+        x: 356
+        y: 1284
+        width: 277
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +358,10 @@ TextureImporter:
       name: keyframes cabeza_2
       rect:
         serializedVersion: 2
-        x: 1547
-        y: 8830
-        width: 618
-        height: 526
+        x: 679
+        y: 1284
+        width: 281
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,10 +380,10 @@ TextureImporter:
       name: keyframes cabeza_3
       rect:
         serializedVersion: 2
-        x: 2203
-        y: 8830
-        width: 626
-        height: 529
+        x: 1003
+        y: 1285
+        width: 285
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +402,10 @@ TextureImporter:
       name: keyframes cabeza_4
       rect:
         serializedVersion: 2
-        x: 2853
-        y: 8830
-        width: 634
-        height: 531
+        x: 1327
+        y: 1285
+        width: 288
+        height: 244
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -366,10 +424,10 @@ TextureImporter:
       name: keyframes cabeza_5
       rect:
         serializedVersion: 2
-        x: 3535
-        y: 8830
-        width: 640
-        height: 533
+        x: 1650
+        y: 1285
+        width: 293
+        height: 245
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -388,10 +446,10 @@ TextureImporter:
       name: keyframes cabeza_6
       rect:
         serializedVersion: 2
-        x: 4192
-        y: 8824
-        width: 647
-        height: 535
+        x: 1975
+        y: 1285
+        width: 295
+        height: 246
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,10 +468,10 @@ TextureImporter:
       name: keyframes cabeza_7
       rect:
         serializedVersion: 2
-        x: 4862
-        y: 8824
-        width: 653
-        height: 537
+        x: 2299
+        y: 1285
+        width: 298
+        height: 246
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -432,10 +490,10 @@ TextureImporter:
       name: keyframes cabeza_8
       rect:
         serializedVersion: 2
-        x: 5525
-        y: 8824
-        width: 659
-        height: 539
+        x: 2623
+        y: 1285
+        width: 301
+        height: 247
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,10 +512,10 @@ TextureImporter:
       name: keyframes cabeza_9
       rect:
         serializedVersion: 2
-        x: 6170
-        y: 8824
-        width: 664
-        height: 541
+        x: 2948
+        y: 1285
+        width: 303
+        height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,10 +534,10 @@ TextureImporter:
       name: keyframes cabeza_10
       rect:
         serializedVersion: 2
-        x: 6814
-        y: 8824
-        width: 669
-        height: 543
+        x: 2
+        y: 1029
+        width: 305
+        height: 249
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,10 +556,10 @@ TextureImporter:
       name: keyframes cabeza_11
       rect:
         serializedVersion: 2
-        x: 7502
-        y: 8824
-        width: 660
-        height: 545
+        x: 329
+        y: 1029
+        width: 302
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,10 +578,10 @@ TextureImporter:
       name: keyframes cabeza_12
       rect:
         serializedVersion: 2
-        x: 73
-        y: 8130
-        width: 650
-        height: 546
+        x: 655
+        y: 1029
+        width: 300
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -542,10 +600,10 @@ TextureImporter:
       name: keyframes cabeza_13
       rect:
         serializedVersion: 2
-        x: 698
-        y: 8130
-        width: 639
-        height: 548
+        x: 981
+        y: 1029
+        width: 297
+        height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -564,10 +622,10 @@ TextureImporter:
       name: keyframes cabeza_14
       rect:
         serializedVersion: 2
-        x: 1315
-        y: 8130
-        width: 630
-        height: 544
+        x: 1311
+        y: 1029
+        width: 294
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -586,10 +644,10 @@ TextureImporter:
       name: keyframes cabeza_15
       rect:
         serializedVersion: 2
-        x: 1933
-        y: 8130
-        width: 620
-        height: 537
+        x: 1641
+        y: 1029
+        width: 293
+        height: 249
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -608,10 +666,10 @@ TextureImporter:
       name: keyframes cabeza_16
       rect:
         serializedVersion: 2
-        x: 2565
-        y: 8130
-        width: 609
-        height: 529
+        x: 1972
+        y: 1029
+        width: 290
+        height: 247
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -630,10 +688,10 @@ TextureImporter:
       name: keyframes cabeza_17
       rect:
         serializedVersion: 2
-        x: 3205
-        y: 8129
-        width: 595
-        height: 531
+        x: 2304
+        y: 1029
+        width: 287
+        height: 246
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -652,10 +710,10 @@ TextureImporter:
       name: keyframes cabeza_18
       rect:
         serializedVersion: 2
-        x: 3843
-        y: 8125
-        width: 588
-        height: 541
+        x: 2635
+        y: 1029
+        width: 284
+        height: 244
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -674,10 +732,10 @@ TextureImporter:
       name: keyframes cabeza_19
       rect:
         serializedVersion: 2
-        x: 4496
-        y: 8122
-        width: 587
-        height: 548
+        x: 2967
+        y: 1028
+        width: 281
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -696,10 +754,10 @@ TextureImporter:
       name: keyframes cabeza_20
       rect:
         serializedVersion: 2
-        x: 5169
-        y: 8118
-        width: 587
-        height: 556
+        x: 29
+        y: 772
+        width: 277
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -718,10 +776,10 @@ TextureImporter:
       name: keyframes cabeza_21
       rect:
         serializedVersion: 2
-        x: 5818
-        y: 8119
-        width: 586
-        height: 554
+        x: 360
+        y: 772
+        width: 274
+        height: 245
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -740,10 +798,10 @@ TextureImporter:
       name: keyframes cabeza_22
       rect:
         serializedVersion: 2
-        x: 6461
-        y: 8119
-        width: 589
-        height: 554
+        x: 691
+        y: 771
+        width: 271
+        height: 247
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -762,10 +820,10 @@ TextureImporter:
       name: keyframes cabeza_23
       rect:
         serializedVersion: 2
-        x: 7124
-        y: 8120
-        width: 592
-        height: 553
+        x: 1020
+        y: 771
+        width: 270
+        height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -784,10 +842,10 @@ TextureImporter:
       name: keyframes cabeza_24
       rect:
         serializedVersion: 2
-        x: 7773
-        y: 8120
-        width: 596
-        height: 552
+        x: 1350
+        y: 770
+        width: 268
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -806,10 +864,10 @@ TextureImporter:
       name: keyframes cabeza_25
       rect:
         serializedVersion: 2
-        x: 125
-        y: 7471
-        width: 598
-        height: 551
+        x: 1679
+        y: 769
+        width: 268
+        height: 252
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -828,10 +886,10 @@ TextureImporter:
       name: keyframes cabeza_26
       rect:
         serializedVersion: 2
-        x: 788
-        y: 7471
-        width: 601
-        height: 550
+        x: 2008
+        y: 768
+        width: 268
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -850,10 +908,10 @@ TextureImporter:
       name: keyframes cabeza_27
       rect:
         serializedVersion: 2
-        x: 1442
-        y: 7471
-        width: 606
-        height: 550
+        x: 2337
+        y: 768
+        width: 267
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -872,10 +930,10 @@ TextureImporter:
       name: keyframes cabeza_28
       rect:
         serializedVersion: 2
-        x: 2105
-        y: 7472
-        width: 614
-        height: 548
+        x: 2663
+        y: 768
+        width: 268
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -894,10 +952,10 @@ TextureImporter:
       name: keyframes cabeza_29
       rect:
         serializedVersion: 2
-        x: 2762
-        y: 7472
-        width: 622
-        height: 548
+        x: 2990
+        y: 768
+        width: 269
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -916,10 +974,10 @@ TextureImporter:
       name: keyframes cabeza_30
       rect:
         serializedVersion: 2
-        x: 3413
-        y: 7473
-        width: 629
-        height: 546
+        x: 47
+        y: 512
+        width: 270
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -938,10 +996,10 @@ TextureImporter:
       name: keyframes cabeza_31
       rect:
         serializedVersion: 2
-        x: 4046
-        y: 7473
-        width: 636
-        height: 546
+        x: 373
+        y: 513
+        width: 272
+        height: 252
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -960,10 +1018,10 @@ TextureImporter:
       name: keyframes cabeza_32
       rect:
         serializedVersion: 2
-        x: 4704
-        y: 7474
-        width: 641
-        height: 544
+        x: 700
+        y: 513
+        width: 273
+        height: 252
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -982,10 +1040,10 @@ TextureImporter:
       name: keyframes cabeza_33
       rect:
         serializedVersion: 2
-        x: 5375
-        y: 7474
-        width: 647
-        height: 544
+        x: 1027
+        y: 513
+        width: 274
+        height: 252
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1004,10 +1062,10 @@ TextureImporter:
       name: keyframes cabeza_34
       rect:
         serializedVersion: 2
-        x: 6034
-        y: 7475
-        width: 1940
-        height: 542
+        x: 1352
+        y: 513
+        width: 277
+        height: 252
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1026,10 +1084,10 @@ TextureImporter:
       name: keyframes cabeza_35
       rect:
         serializedVersion: 2
-        x: 73
-        y: 6876
-        width: 656
-        height: 539
+        x: 1677
+        y: 513
+        width: 280
+        height: 252
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1048,10 +1106,10 @@ TextureImporter:
       name: keyframes cabeza_36
       rect:
         serializedVersion: 2
-        x: 743
-        y: 6876
-        width: 651
-        height: 539
+        x: 2001
+        y: 514
+        width: 284
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1070,10 +1128,10 @@ TextureImporter:
       name: keyframes cabeza_37
       rect:
         serializedVersion: 2
-        x: 1402
-        y: 6877
-        width: 1272
-        height: 537
+        x: 2326
+        y: 514
+        width: 287
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1092,10 +1150,10 @@ TextureImporter:
       name: keyframes cabeza_38
       rect:
         serializedVersion: 2
-        x: 2687
-        y: 6878
-        width: 632
-        height: 534
+        x: 2651
+        y: 514
+        width: 290
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1114,10 +1172,10 @@ TextureImporter:
       name: keyframes cabeza_39
       rect:
         serializedVersion: 2
-        x: 3327
-        y: 6878
-        width: 625
-        height: 534
+        x: 2976
+        y: 514
+        width: 292
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1136,10 +1194,10 @@ TextureImporter:
       name: keyframes cabeza_40
       rect:
         serializedVersion: 2
-        x: 3961
-        y: 6879
-        width: 618
-        height: 532
+        x: 31
+        y: 258
+        width: 295
+        height: 249
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1158,10 +1216,10 @@ TextureImporter:
       name: keyframes cabeza_41
       rect:
         serializedVersion: 2
-        x: 4607
-        y: 6879
-        width: 610
-        height: 531
+        x: 355
+        y: 258
+        width: 298
+        height: 249
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1180,10 +1238,10 @@ TextureImporter:
       name: keyframes cabeza_42
       rect:
         serializedVersion: 2
-        x: 5241
-        y: 6880
-        width: 602
-        height: 529
+        x: 681
+        y: 259
+        width: 299
+        height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1202,10 +1260,10 @@ TextureImporter:
       name: keyframes cabeza_43
       rect:
         serializedVersion: 2
-        x: 5880
-        y: 6880
-        width: 599
-        height: 529
+        x: 1006
+        y: 259
+        width: 301
+        height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1224,10 +1282,10 @@ TextureImporter:
       name: keyframes cabeza_44
       rect:
         serializedVersion: 2
-        x: 6505
-        y: 6880
-        width: 599
-        height: 529
+        x: 1334
+        y: 259
+        width: 298
+        height: 247
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1246,10 +1304,10 @@ TextureImporter:
       name: keyframes cabeza_45
       rect:
         serializedVersion: 2
-        x: 7155
-        y: 6880
-        width: 599
-        height: 529
+        x: 1661
+        y: 259
+        width: 297
+        height: 247
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1268,10 +1326,10 @@ TextureImporter:
       name: keyframes cabeza_46
       rect:
         serializedVersion: 2
-        x: 7780
-        y: 6880
-        width: 599
-        height: 529
+        x: 1989
+        y: 259
+        width: 294
+        height: 247
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1290,10 +1348,10 @@ TextureImporter:
       name: keyframes cabeza_47
       rect:
         serializedVersion: 2
-        x: 82
-        y: 6242
-        width: 599
-        height: 529
+        x: 2317
+        y: 259
+        width: 291
+        height: 247
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1312,10 +1370,10 @@ TextureImporter:
       name: keyframes cabeza_48
       rect:
         serializedVersion: 2
-        x: 707
-        y: 6242
-        width: 599
-        height: 529
+        x: 2644
+        y: 260
+        width: 289
+        height: 245
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1334,10 +1392,10 @@ TextureImporter:
       name: keyframes cabeza_49
       rect:
         serializedVersion: 2
-        x: 1345
-        y: 6242
-        width: 599
-        height: 529
+        x: 2972
+        y: 260
+        width: 286
+        height: 245
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1356,10 +1414,10 @@ TextureImporter:
       name: keyframes cabeza_50
       rect:
         serializedVersion: 2
-        x: 1995
-        y: 6242
-        width: 599
-        height: 529
+        x: 30
+        y: 4
+        width: 283
+        height: 245
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1378,10 +1436,10 @@ TextureImporter:
       name: keyframes cabeza_51
       rect:
         serializedVersion: 2
-        x: 2652
-        y: 6242
-        width: 606
-        height: 528
+        x: 357
+        y: 4
+        width: 281
+        height: 244
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1392,6 +1450,50 @@ TextureImporter:
       bones: []
       spriteID: ddf85e2272d07e270800000000000000
       internalID: 8279600901684301789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_52
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 4
+        width: 277
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c04799d2b90dba0800000000000000
+      internalID: -6066178077917705204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_53
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 4
+        width: 274
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297796988af604860800000000000000
+      internalID: 7512126948104566674
       vertices: []
       indices: 
       edges: []
@@ -1458,6 +1560,8 @@ TextureImporter:
       keyframes cabeza_5: -7573348044860486699
       keyframes cabeza_50: 4269741267542204363
       keyframes cabeza_51: 8279600901684301789
+      keyframes cabeza_52: -6066178077917705204
+      keyframes cabeza_53: 7512126948104566674
       keyframes cabeza_6: 8279478165252080323
       keyframes cabeza_7: 6143303100654457842
       keyframes cabeza_8: 1109060851289338660

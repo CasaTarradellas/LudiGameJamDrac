@@ -83,9 +83,6 @@ TextureImporter:
   - first:
       213: -7621983727497294935
     second: keyframes meneo de cabeza_26
-  - first:
-      213: -3869272427915509303
-    second: keyframes meneo de cabeza_27
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,7 +115,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -165,7 +162,59 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -184,10 +233,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_0
       rect:
         serializedVersion: 2
-        x: 298
-        y: 8083
-        width: 1096
-        height: 1112
+        x: 15
+        y: 1028
+        width: 502
+        height: 509
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,10 +255,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_1
       rect:
         serializedVersion: 2
-        x: 1425
-        y: 8108
-        width: 1100
-        height: 1110
+        x: 546
+        y: 1029
+        width: 503
+        height: 507
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +277,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_2
       rect:
         serializedVersion: 2
-        x: 2600
-        y: 8126
-        width: 1105
-        height: 1099
+        x: 1076
+        y: 1032
+        width: 506
+        height: 502
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +299,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_3
       rect:
         serializedVersion: 2
-        x: 3740
-        y: 8165
-        width: 1118
-        height: 1086
+        x: 1604
+        y: 1036
+        width: 511
+        height: 496
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +321,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_4
       rect:
         serializedVersion: 2
-        x: 4902
-        y: 8191
-        width: 1129
-        height: 1071
+        x: 2132
+        y: 1041
+        width: 516
+        height: 490
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +343,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_5
       rect:
         serializedVersion: 2
-        x: 6059
-        y: 8231
-        width: 1139
-        height: 1060
+        x: 2660
+        y: 1046
+        width: 521
+        height: 485
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,10 +365,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_6
       rect:
         serializedVersion: 2
-        x: 7228
-        y: 8265
-        width: 1147
-        height: 1055
+        x: 3189
+        y: 1051
+        width: 525
+        height: 483
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +387,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_7
       rect:
         serializedVersion: 2
-        x: 304
-        y: 6961
-        width: 1154
-        height: 1065
+        x: 3719
+        y: 1050
+        width: 527
+        height: 487
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +409,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_8
       rect:
         serializedVersion: 2
-        x: 1464
-        y: 6982
-        width: 1159
-        height: 1082
+        x: 4249
+        y: 1044
+        width: 530
+        height: 494
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +431,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_9
       rect:
         serializedVersion: 2
-        x: 2660
-        y: 6975
-        width: 1160
-        height: 1093
+        x: 4780
+        y: 1038
+        width: 530
+        height: 499
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +453,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_10
       rect:
         serializedVersion: 2
-        x: 3837
-        y: 6935
-        width: 1154
-        height: 1098
+        x: 2
+        y: 520
+        width: 528
+        height: 502
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +475,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_11
       rect:
         serializedVersion: 2
-        x: 5009
-        y: 6921
-        width: 1145
-        height: 1102
+        x: 535
+        y: 516
+        width: 524
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,10 +497,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_12
       rect:
         serializedVersion: 2
-        x: 6169
-        y: 6924
-        width: 1132
-        height: 1105
+        x: 1070
+        y: 515
+        width: 518
+        height: 505
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +519,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_13
       rect:
         serializedVersion: 2
-        x: 7321
-        y: 6925
-        width: 1111
-        height: 1109
+        x: 1607
+        y: 515
+        width: 509
+        height: 507
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,10 +541,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_14
       rect:
         serializedVersion: 2
-        x: 226
-        y: 5722
-        width: 1096
-        height: 1107
+        x: 2143
+        y: 518
+        width: 501
+        height: 506
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,10 +563,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_15
       rect:
         serializedVersion: 2
-        x: 1347
-        y: 5714
-        width: 1076
-        height: 1100
+        x: 2679
+        y: 522
+        width: 492
+        height: 503
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,10 +585,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_16
       rect:
         serializedVersion: 2
-        x: 2466
-        y: 5702
-        width: 1061
-        height: 1086
+        x: 3214
+        y: 527
+        width: 485
+        height: 497
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,10 +607,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_17
       rect:
         serializedVersion: 2
-        x: 3572
-        y: 5718
-        width: 1055
-        height: 1082
+        x: 3745
+        y: 527
+        width: 483
+        height: 494
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,10 +629,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_18
       rect:
         serializedVersion: 2
-        x: 4648
-        y: 5722
-        width: 1055
-        height: 1080
+        x: 4276
+        y: 526
+        width: 483
+        height: 493
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,10 +651,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_19
       rect:
         serializedVersion: 2
-        x: 5745
-        y: 5737
-        width: 1057
-        height: 1084
+        x: 4806
+        y: 525
+        width: 484
+        height: 495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +673,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_20
       rect:
         serializedVersion: 2
-        x: 6864
-        y: 5775
-        width: 1061
-        height: 1091
+        x: 26
+        y: 10
+        width: 486
+        height: 499
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +695,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_21
       rect:
         serializedVersion: 2
-        x: 255
-        y: 4517
-        width: 1066
-        height: 1099
+        x: 555
+        y: 9
+        width: 488
+        height: 502
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,10 +717,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_22
       rect:
         serializedVersion: 2
-        x: 1361
-        y: 4526
-        width: 1072
-        height: 1100
+        x: 1084
+        y: 7
+        width: 490
+        height: 503
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,10 +739,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_23
       rect:
         serializedVersion: 2
-        x: 2489
-        y: 4513
-        width: 1078
-        height: 1093
+        x: 1613
+        y: 6
+        width: 493
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,10 +761,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_24
       rect:
         serializedVersion: 2
-        x: 3623
-        y: 4487
-        width: 1083
-        height: 1086
+        x: 2142
+        y: 5
+        width: 495
+        height: 497
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -734,10 +783,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_25
       rect:
         serializedVersion: 2
-        x: 4748
-        y: 4479
-        width: 1086
-        height: 1089
+        x: 2671
+        y: 4
+        width: 497
+        height: 498
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,10 +805,10 @@ TextureImporter:
       name: keyframes meneo de cabeza_26
       rect:
         serializedVersion: 2
-        x: 5872
-        y: 4478
-        width: 1088
-        height: 1100
+        x: 3201
+        y: 4
+        width: 497
+        height: 503
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -770,28 +819,6 @@ TextureImporter:
       bones: []
       spriteID: 9ab47bece26493690800000000000000
       internalID: -7621983727497294935
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: keyframes meneo de cabeza_27
-      rect:
-        serializedVersion: 2
-        x: 7000
-        y: 4500
-        width: 1086
-        height: 1110
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c102e22a359d4ac0800000000000000
-      internalID: -3869272427915509303
       vertices: []
       indices: 
       edges: []
@@ -830,7 +857,6 @@ TextureImporter:
       keyframes meneo de cabeza_24: -1266081849102357108
       keyframes meneo de cabeza_25: 3706380867892650868
       keyframes meneo de cabeza_26: -7621983727497294935
-      keyframes meneo de cabeza_27: -3869272427915509303
       keyframes meneo de cabeza_3: 8657499946849021667
       keyframes meneo de cabeza_4: 4992551573748510092
       keyframes meneo de cabeza_5: 993276743791221412
