@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: afc53a5054dca9e4f96b44e46a7159e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4109011676342203003
+    second: keyframes cabeza_0
+  - first:
+      213: 1714517259709242482
+    second: keyframes cabeza_1
+  - first:
+      213: -1954341125880303216
+    second: keyframes cabeza_2
+  - first:
+      213: -4497113937273372548
+    second: keyframes cabeza_3
+  - first:
+      213: 4974867666048511123
+    second: keyframes cabeza_4
+  - first:
+      213: -7573348044860486699
+    second: keyframes cabeza_5
+  - first:
+      213: 8279478165252080323
+    second: keyframes cabeza_6
+  - first:
+      213: 6143303100654457842
+    second: keyframes cabeza_7
+  - first:
+      213: 1109060851289338660
+    second: keyframes cabeza_8
+  - first:
+      213: 3293996743107720381
+    second: keyframes cabeza_9
+  - first:
+      213: -8326260463522693249
+    second: keyframes cabeza_10
+  - first:
+      213: -3866985838210431423
+    second: keyframes cabeza_11
+  - first:
+      213: -2760456746012574005
+    second: keyframes cabeza_12
+  - first:
+      213: 6333058191236407358
+    second: keyframes cabeza_13
+  - first:
+      213: 4644336958709882302
+    second: keyframes cabeza_14
+  - first:
+      213: -8279937279850001556
+    second: keyframes cabeza_15
+  - first:
+      213: -1408051192815993760
+    second: keyframes cabeza_16
+  - first:
+      213: 2914105942664706288
+    second: keyframes cabeza_17
+  - first:
+      213: -5105736064291356092
+    second: keyframes cabeza_18
+  - first:
+      213: -8255832151895611277
+    second: keyframes cabeza_19
+  - first:
+      213: 8031055377295323566
+    second: keyframes cabeza_20
+  - first:
+      213: -9060447598913083030
+    second: keyframes cabeza_21
+  - first:
+      213: -9119431632535827989
+    second: keyframes cabeza_22
+  - first:
+      213: 2507353159463692565
+    second: keyframes cabeza_23
+  - first:
+      213: 7950746636492314238
+    second: keyframes cabeza_24
+  - first:
+      213: -8477150293677877027
+    second: keyframes cabeza_25
+  - first:
+      213: 2110310780095290686
+    second: keyframes cabeza_26
+  - first:
+      213: -2204186911919572338
+    second: keyframes cabeza_27
+  - first:
+      213: -856024635752040930
+    second: keyframes cabeza_28
+  - first:
+      213: -6760774897828586807
+    second: keyframes cabeza_29
+  - first:
+      213: -6268889117192365148
+    second: keyframes cabeza_30
+  - first:
+      213: 2422081704427209015
+    second: keyframes cabeza_31
+  - first:
+      213: -6413159761438775184
+    second: keyframes cabeza_32
+  - first:
+      213: 1231469798785973681
+    second: keyframes cabeza_33
+  - first:
+      213: -1254177013794076879
+    second: keyframes cabeza_34
+  - first:
+      213: -7984368402416777126
+    second: keyframes cabeza_35
+  - first:
+      213: 5260919919576442968
+    second: keyframes cabeza_36
+  - first:
+      213: 3784249001833062346
+    second: keyframes cabeza_37
+  - first:
+      213: 2599463862555026266
+    second: keyframes cabeza_38
+  - first:
+      213: -1921293297508169109
+    second: keyframes cabeza_39
+  - first:
+      213: 3219458842164402502
+    second: keyframes cabeza_40
+  - first:
+      213: -7031749919558548728
+    second: keyframes cabeza_41
+  - first:
+      213: 2033609726341150017
+    second: keyframes cabeza_42
+  - first:
+      213: 6906247402093245092
+    second: keyframes cabeza_43
+  - first:
+      213: -6521377515784775627
+    second: keyframes cabeza_44
+  - first:
+      213: -2925721330378118730
+    second: keyframes cabeza_45
+  - first:
+      213: 8889454426954887689
+    second: keyframes cabeza_46
+  - first:
+      213: 3479115299936510689
+    second: keyframes cabeza_47
+  - first:
+      213: -3120069115601448146
+    second: keyframes cabeza_48
+  - first:
+      213: -2877809072905894296
+    second: keyframes cabeza_49
+  - first:
+      213: 4269741267542204363
+    second: keyframes cabeza_50
+  - first:
+      213: 8279600901684301789
+    second: keyframes cabeza_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: keyframes cabeza_0
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 8830
+        width: 599
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58dc0bd96abd9f6c0800000000000000
+      internalID: -4109011676342203003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_1
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 8830
+        width: 609
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cde322d503bc710800000000000000
+      internalID: 1714517259709242482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_2
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 8830
+        width: 618
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091b7fdb919c0e4e0800000000000000
+      internalID: -1954341125880303216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_3
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 8830
+        width: 626
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70cc5663ba0791c0800000000000000
+      internalID: -4497113937273372548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_4
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 8830
+        width: 634
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ce567c8c74a0540800000000000000
+      internalID: 4974867666048511123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_5
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 8830
+        width: 640
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db01b9141016e690800000000000000
+      internalID: -7573348044860486699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_6
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 8824
+        width: 647
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c20475568d96e270800000000000000
+      internalID: 8279478165252080323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_7
+      rect:
+        serializedVersion: 2
+        x: 4862
+        y: 8824
+        width: 653
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f390161f95614550800000000000000
+      internalID: 6143303100654457842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_8
+      rect:
+        serializedVersion: 2
+        x: 5525
+        y: 8824
+        width: 659
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423b46bd7fc246f00800000000000000
+      internalID: 1109060851289338660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_9
+      rect:
+        serializedVersion: 2
+        x: 6170
+        y: 8824
+        width: 664
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4ba34e590a6bd20800000000000000
+      internalID: 3293996743107720381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_10
+      rect:
+        serializedVersion: 2
+        x: 6814
+        y: 8824
+        width: 669
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fb95c093e237c80800000000000000
+      internalID: -8326260463522693249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_11
+      rect:
+        serializedVersion: 2
+        x: 7502
+        y: 8824
+        width: 660
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146400a4ed4b55ac0800000000000000
+      internalID: -3866985838210431423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 8130
+        width: 650
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcef61c0733e0b9d0800000000000000
+      internalID: -2760456746012574005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_13
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 8130
+        width: 639
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e302686feda83e750800000000000000
+      internalID: 6333058191236407358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_14
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 8130
+        width: 630
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdde117bdff37040800000000000000
+      internalID: 4644336958709882302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_15
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 8130
+        width: 620
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bc608b9e0c71d80800000000000000
+      internalID: -8279937279850001556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_16
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 8130
+        width: 609
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c33aa76e8957ce0800000000000000
+      internalID: -1408051192815993760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_17
+      rect:
+        serializedVersion: 2
+        x: 3205
+        y: 8129
+        width: 595
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8726e4aebf07820800000000000000
+      internalID: 2914105942664706288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_18
+      rect:
+        serializedVersion: 2
+        x: 3843
+        y: 8125
+        width: 588
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4424303d918c429b0800000000000000
+      internalID: -5105736064291356092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_19
+      rect:
+        serializedVersion: 2
+        x: 4496
+        y: 8122
+        width: 587
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378630d26646d6d80800000000000000
+      internalID: -8255832151895611277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_20
+      rect:
+        serializedVersion: 2
+        x: 5169
+        y: 8118
+        width: 587
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1bd27b05a047f60800000000000000
+      internalID: 8031055377295323566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_21
+      rect:
+        serializedVersion: 2
+        x: 5818
+        y: 8119
+        width: 586
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69aeb0c9e2d24280800000000000000
+      internalID: -9060447598913083030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_22
+      rect:
+        serializedVersion: 2
+        x: 6461
+        y: 8119
+        width: 589
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9cd3d3f35417180800000000000000
+      internalID: -9119431632535827989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_23
+      rect:
+        serializedVersion: 2
+        x: 7124
+        y: 8120
+        width: 592
+        height: 553
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519694cf968ebc220800000000000000
+      internalID: 2507353159463692565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_24
+      rect:
+        serializedVersion: 2
+        x: 7773
+        y: 8120
+        width: 596
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e769147e0f9b65e60800000000000000
+      internalID: 7950746636492314238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_25
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 7471
+        width: 598
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd85bb5c8bc1b5a80800000000000000
+      internalID: -8477150293677877027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_26
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 7471
+        width: 601
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3dd14d3974594d10800000000000000
+      internalID: 2110310780095290686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_27
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 7471
+        width: 606
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8af7709ea72961e0800000000000000
+      internalID: -2204186911919572338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_28
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 7472
+        width: 614
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e163403112ace14f0800000000000000
+      internalID: -856024635752040930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_29
+      rect:
+        serializedVersion: 2
+        x: 2762
+        y: 7472
+        width: 622
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca9c80fc07ec22a0800000000000000
+      internalID: -6760774897828586807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_30
+      rect:
+        serializedVersion: 2
+        x: 3413
+        y: 7473
+        width: 629
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abdf69df8e6009a0800000000000000
+      internalID: -6268889117192365148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_31
+      rect:
+        serializedVersion: 2
+        x: 4046
+        y: 7473
+        width: 636
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7314b593a76fc9120800000000000000
+      internalID: 2422081704427209015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_32
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 7474
+        width: 641
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078ec93ec21eff6a0800000000000000
+      internalID: -6413159761438775184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_33
+      rect:
+        serializedVersion: 2
+        x: 5375
+        y: 7474
+        width: 647
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd7244e14f071110800000000000000
+      internalID: 1231469798785973681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_34
+      rect:
+        serializedVersion: 2
+        x: 6034
+        y: 7475
+        width: 1940
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137085f96a4489ee0800000000000000
+      internalID: -1254177013794076879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_35
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 6876
+        width: 656
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a584812bd33d13190800000000000000
+      internalID: -7984368402416777126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_36
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 6876
+        width: 651
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85861261bca820940800000000000000
+      internalID: 5260919919576442968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_37
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 6877
+        width: 1272
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfd2e7da6a548430800000000000000
+      internalID: 3784249001833062346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_38
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 6878
+        width: 632
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53ae064c96231420800000000000000
+      internalID: 2599463862555026266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_39
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 6878
+        width: 625
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6acfa4ece13655e0800000000000000
+      internalID: -1921293297508169109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_40
+      rect:
+        serializedVersion: 2
+        x: 3961
+        y: 6879
+        width: 618
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649133072c0ddac20800000000000000
+      internalID: 3219458842164402502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_41
+      rect:
+        serializedVersion: 2
+        x: 4607
+        y: 6879
+        width: 610
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803c45734b43a6e90800000000000000
+      internalID: -7031749919558548728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_42
+      rect:
+        serializedVersion: 2
+        x: 5241
+        y: 6880
+        width: 602
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145f7568545d83c10800000000000000
+      internalID: 2033609726341150017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_43
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 6880
+        width: 599
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a27bbcdb6be7df50800000000000000
+      internalID: 6906247402093245092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_44
+      rect:
+        serializedVersion: 2
+        x: 6505
+        y: 6880
+        width: 599
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538dd6d73b96f75a0800000000000000
+      internalID: -6521377515784775627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_45
+      rect:
+        serializedVersion: 2
+        x: 7155
+        y: 6880
+        width: 599
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9670f73ffb567d0800000000000000
+      internalID: -2925721330378118730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_46
+      rect:
+        serializedVersion: 2
+        x: 7780
+        y: 6880
+        width: 599
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9027ba5f3bfad5b70800000000000000
+      internalID: 8889454426954887689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_47
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 6242
+        width: 599
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2a751aeec484030800000000000000
+      internalID: 3479115299936510689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_48
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 6242
+        width: 599
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2398e19ba943b4d0800000000000000
+      internalID: -3120069115601448146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_49
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 6242
+        width: 599
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8664c0e35e7ff08d0800000000000000
+      internalID: -2877809072905894296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_50
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 6242
+        width: 599
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfddae8f0b214b30800000000000000
+      internalID: 4269741267542204363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes cabeza_51
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 6242
+        width: 606
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf85e2272d07e270800000000000000
+      internalID: 8279600901684301789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      keyframes cabeza_0: -4109011676342203003
+      keyframes cabeza_1: 1714517259709242482
+      keyframes cabeza_10: -8326260463522693249
+      keyframes cabeza_11: -3866985838210431423
+      keyframes cabeza_12: -2760456746012574005
+      keyframes cabeza_13: 6333058191236407358
+      keyframes cabeza_14: 4644336958709882302
+      keyframes cabeza_15: -8279937279850001556
+      keyframes cabeza_16: -1408051192815993760
+      keyframes cabeza_17: 2914105942664706288
+      keyframes cabeza_18: -5105736064291356092
+      keyframes cabeza_19: -8255832151895611277
+      keyframes cabeza_2: -1954341125880303216
+      keyframes cabeza_20: 8031055377295323566
+      keyframes cabeza_21: -9060447598913083030
+      keyframes cabeza_22: -9119431632535827989
+      keyframes cabeza_23: 2507353159463692565
+      keyframes cabeza_24: 7950746636492314238
+      keyframes cabeza_25: -8477150293677877027
+      keyframes cabeza_26: 2110310780095290686
+      keyframes cabeza_27: -2204186911919572338
+      keyframes cabeza_28: -856024635752040930
+      keyframes cabeza_29: -6760774897828586807
+      keyframes cabeza_3: -4497113937273372548
+      keyframes cabeza_30: -6268889117192365148
+      keyframes cabeza_31: 2422081704427209015
+      keyframes cabeza_32: -6413159761438775184
+      keyframes cabeza_33: 1231469798785973681
+      keyframes cabeza_34: -1254177013794076879
+      keyframes cabeza_35: -7984368402416777126
+      keyframes cabeza_36: 5260919919576442968
+      keyframes cabeza_37: 3784249001833062346
+      keyframes cabeza_38: 2599463862555026266
+      keyframes cabeza_39: -1921293297508169109
+      keyframes cabeza_4: 4974867666048511123
+      keyframes cabeza_40: 3219458842164402502
+      keyframes cabeza_41: -7031749919558548728
+      keyframes cabeza_42: 2033609726341150017
+      keyframes cabeza_43: 6906247402093245092
+      keyframes cabeza_44: -6521377515784775627
+      keyframes cabeza_45: -2925721330378118730
+      keyframes cabeza_46: 8889454426954887689
+      keyframes cabeza_47: 3479115299936510689
+      keyframes cabeza_48: -3120069115601448146
+      keyframes cabeza_49: -2877809072905894296
+      keyframes cabeza_5: -7573348044860486699
+      keyframes cabeza_50: 4269741267542204363
+      keyframes cabeza_51: 8279600901684301789
+      keyframes cabeza_6: 8279478165252080323
+      keyframes cabeza_7: 6143303100654457842
+      keyframes cabeza_8: 1109060851289338660
+      keyframes cabeza_9: 3293996743107720381
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

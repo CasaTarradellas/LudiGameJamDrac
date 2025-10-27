@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 562f3921acd6d6049929224c6a5e9fb4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6588892741677703384
+    second: keyframes caida_0
+  - first:
+      213: 1808564352952323588
+    second: keyframes caida_1
+  - first:
+      213: -7223879213272046418
+    second: keyframes caida_2
+  - first:
+      213: 3210024722393272507
+    second: keyframes caida_3
+  - first:
+      213: -5367672629993691090
+    second: keyframes caida_4
+  - first:
+      213: 6840931765121485681
+    second: keyframes caida_5
+  - first:
+      213: 1080522991886183335
+    second: keyframes caida_6
+  - first:
+      213: -3379655308789617407
+    second: keyframes caida_7
+  - first:
+      213: 5782520803844618403
+    second: keyframes caida_8
+  - first:
+      213: -6396139924986156600
+    second: keyframes caida_9
+  - first:
+      213: 6601874972943591399
+    second: keyframes caida_10
+  - first:
+      213: 721445528723712259
+    second: keyframes caida_11
+  - first:
+      213: -7831795166821495877
+    second: keyframes caida_12
+  - first:
+      213: -4659091555855238454
+    second: keyframes caida_13
+  - first:
+      213: -4239264622667039229
+    second: keyframes caida_14
+  - first:
+      213: -7637387981864753111
+    second: keyframes caida_15
+  - first:
+      213: 5026277440246264990
+    second: keyframes caida_16
+  - first:
+      213: -4933062637142581142
+    second: keyframes caida_17
+  - first:
+      213: 725414131013104488
+    second: keyframes caida_18
+  - first:
+      213: 7055892025447385064
+    second: keyframes caida_19
+  - first:
+      213: 4874534323614069272
+    second: keyframes caida_20
+  - first:
+      213: 4638550791224786824
+    second: keyframes caida_21
+  - first:
+      213: -7564515278035540448
+    second: keyframes caida_22
+  - first:
+      213: -350610342440847733
+    second: keyframes caida_23
+  - first:
+      213: -2372252813505741522
+    second: keyframes caida_24
+  - first:
+      213: -2055810411014342570
+    second: keyframes caida_25
+  - first:
+      213: 2995639638211780117
+    second: keyframes caida_26
+  - first:
+      213: -1183384500457572007
+    second: keyframes caida_27
+  - first:
+      213: -1609065536619340164
+    second: keyframes caida_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: keyframes caida_0
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 8257
+        width: 1097
+        height: 1092
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f962df5fc8f84a0800000000000000
+      internalID: -6588892741677703384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_1
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 8253
+        width: 1101
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e482362bf491910800000000000000
+      internalID: 1808564352952323588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_2
+      rect:
+        serializedVersion: 2
+        x: 2512
+        y: 8265
+        width: 1109
+        height: 1099
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea467981120afbb90800000000000000
+      internalID: -7223879213272046418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_3
+      rect:
+        serializedVersion: 2
+        x: 3674
+        y: 8300
+        width: 1121
+        height: 1102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb019724a7c4c8c20800000000000000
+      internalID: 3210024722393272507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_4
+      rect:
+        serializedVersion: 2
+        x: 4837
+        y: 8318
+        width: 1132
+        height: 1106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28a3a2ae223285b0800000000000000
+      internalID: -5367672629993691090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_5
+      rect:
+        serializedVersion: 2
+        x: 6032
+        y: 8342
+        width: 1140
+        height: 1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b80c0123fdfee50800000000000000
+      internalID: 6840931765121485681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_6
+      rect:
+        serializedVersion: 2
+        x: 7212
+        y: 8360
+        width: 1145
+        height: 1115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aba40fafe9cefe00800000000000000
+      internalID: 1080522991886183335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 7010
+        width: 1147
+        height: 1120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10de450276d0911d0800000000000000
+      internalID: -3379655308789617407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_8
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 6983
+        width: 1146
+        height: 1123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8f673b804af3050800000000000000
+      internalID: 5782520803844618403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_9
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 6970
+        width: 1145
+        height: 1126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9a18d50a85c37a0800000000000000
+      internalID: -6396139924986156600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_10
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 6973
+        width: 1144
+        height: 1130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e728d54f429e9b50800000000000000
+      internalID: 6601874972943591399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_11
+      rect:
+        serializedVersion: 2
+        x: 4989
+        y: 6982
+        width: 1146
+        height: 1134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309ee50d2e6130a00800000000000000
+      internalID: 721445528723712259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_12
+      rect:
+        serializedVersion: 2
+        x: 6153
+        y: 6977
+        width: 2288
+        height: 1159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbcbf75acfdf4390800000000000000
+      internalID: -7831795166821495877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_13
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 5751
+        width: 1154
+        height: 1146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acaf9353ae4975fb0800000000000000
+      internalID: -4659091555855238454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_14
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 5707
+        width: 1158
+        height: 1150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30efc09494b1b25c0800000000000000
+      internalID: -4239264622667039229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_15
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 5747
+        width: 1163
+        height: 1154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9282d19581c820690800000000000000
+      internalID: -7637387981864753111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_16
+      rect:
+        serializedVersion: 2
+        x: 3754
+        y: 5718
+        width: 1167
+        height: 1159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94307893bce0c540800000000000000
+      internalID: 5026277440246264990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_17
+      rect:
+        serializedVersion: 2
+        x: 4945
+        y: 5696
+        width: 1171
+        height: 1164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a606d520bad3a8bb0800000000000000
+      internalID: -4933062637142581142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_18
+      rect:
+        serializedVersion: 2
+        x: 6166
+        y: 5697
+        width: 1175
+        height: 1169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863b51a0f40311a00800000000000000
+      internalID: 725414131013104488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_19
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 4490
+        width: 1179
+        height: 1174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e78d46d9609be160800000000000000
+      internalID: 7055892025447385064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_20
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 4446
+        width: 1185
+        height: 1179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81237741423d5a340800000000000000
+      internalID: 4874534323614069272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_21
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 4457
+        width: 1190
+        height: 1182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f7f875e517f5040800000000000000
+      internalID: 4638550791224786824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_22
+      rect:
+        serializedVersion: 2
+        x: 3863
+        y: 4489
+        width: 1195
+        height: 1187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0262da2ee61750790800000000000000
+      internalID: -7564515278035540448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_23
+      rect:
+        serializedVersion: 2
+        x: 5114
+        y: 4490
+        width: 1199
+        height: 1192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b863c3c40c1622bf0800000000000000
+      internalID: -350610342440847733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_24
+      rect:
+        serializedVersion: 2
+        x: 6326
+        y: 4494
+        width: 1203
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2db19582a0141fd0800000000000000
+      internalID: -2372252813505741522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_25
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 3228
+        width: 1206
+        height: 1199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658b0f5c25b4873e0800000000000000
+      internalID: -2055810411014342570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_26
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 3224
+        width: 1205
+        height: 1203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e51be1166a29920800000000000000
+      internalID: 2995639638211780117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_27
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 3221
+        width: 1204
+        height: 1205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959f5811116c39fe0800000000000000
+      internalID: -1183384500457572007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyframes caida_28
+      rect:
+        serializedVersion: 2
+        x: 3827
+        y: 3188
+        width: 1197
+        height: 1208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e1b7d6b637ba9e0800000000000000
+      internalID: -1609065536619340164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      keyframes caida_0: -6588892741677703384
+      keyframes caida_1: 1808564352952323588
+      keyframes caida_10: 6601874972943591399
+      keyframes caida_11: 721445528723712259
+      keyframes caida_12: -7831795166821495877
+      keyframes caida_13: -4659091555855238454
+      keyframes caida_14: -4239264622667039229
+      keyframes caida_15: -7637387981864753111
+      keyframes caida_16: 5026277440246264990
+      keyframes caida_17: -4933062637142581142
+      keyframes caida_18: 725414131013104488
+      keyframes caida_19: 7055892025447385064
+      keyframes caida_2: -7223879213272046418
+      keyframes caida_20: 4874534323614069272
+      keyframes caida_21: 4638550791224786824
+      keyframes caida_22: -7564515278035540448
+      keyframes caida_23: -350610342440847733
+      keyframes caida_24: -2372252813505741522
+      keyframes caida_25: -2055810411014342570
+      keyframes caida_26: 2995639638211780117
+      keyframes caida_27: -1183384500457572007
+      keyframes caida_28: -1609065536619340164
+      keyframes caida_3: 3210024722393272507
+      keyframes caida_4: -5367672629993691090
+      keyframes caida_5: 6840931765121485681
+      keyframes caida_6: 1080522991886183335
+      keyframes caida_7: -3379655308789617407
+      keyframes caida_8: 5782520803844618403
+      keyframes caida_9: -6396139924986156600
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
