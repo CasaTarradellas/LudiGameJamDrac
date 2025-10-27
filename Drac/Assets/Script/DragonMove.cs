@@ -14,11 +14,19 @@ public class DragonMove : MonoBehaviour
     }
     private void FollowMouse()
     {
+        Debug.Log(GetWorldPos());
         transform.position = GetWorldPos();
     }
 
     private Vector2 GetWorldPos()
     {
-        return cam.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 pos = cam.ScreenToWorldPoint(Input.mousePosition);
+        float screnWidthToWorld = cam.ScreenToWorldPoint(new Vector3(Screen.width,0,0)).x - 0.5f;
+        
+        pos.x = Mathf.Clamp(pos.x, -screnWidthToWorld, screnWidthToWorld);
+        pos.y = transform.position.y;
+        
+
+        return pos;
     }
 }

@@ -227,7 +227,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 100
-  m_AngularDamping: 0.05
+  m_AngularDamping: 0
   m_GravityScale: 10
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -239,7 +239,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &627839676302179735
 BoxCollider2D:
   m_ObjectHideFlags: 0
