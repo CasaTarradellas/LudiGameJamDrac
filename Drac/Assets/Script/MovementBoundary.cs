@@ -10,11 +10,9 @@ public class MovementBoundary : MonoBehaviour
 
     void Start()
     {
-        float distance = Mathf.Abs(Camera.main.transform.position.z - transform.position.z);
-
         h = canvas.GetComponent<RectTransform>().rect.height;
         w = canvas.GetComponent<RectTransform>().rect.width;
-        movementBounds = Camera.main.ScreenToWorldPoint(new Vector3(w, h, distance));
+        movementBounds = Camera.main.ScreenToWorldPoint(new Vector3(w, h, Camera.main.transform.position.z));
     }
 
     void Update()
