@@ -9,8 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 5b96824ec61f9fd4a89ed1f96c8464ee
   - enabled: 1
-    path: Assets/Scenes/MainMechanic.unity
+    path: Assets/Scenes/LvlSelector.unity
+    guid: 069c30d5f9d921a40aff6102ad4d8b59
+  - enabled: 1
+    path: Assets/Scenes/Nivell_1.unity
     guid: 436480dea9cf1e34ea0e1b298d1c314c
-  m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

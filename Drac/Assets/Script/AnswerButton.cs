@@ -1,0 +1,26 @@
+using UnityEngine;
+using TMPro;
+
+public class AnswerButton : MonoBehaviour
+{
+    private int answerIndex;
+    [HideInInspector] public GameManager gameManager;
+
+    [SerializeField] private TextMeshProUGUI answerText;
+
+    private bool clicked = false;
+
+    public void Initialize(GameManager manager, string answer, int index)
+    {
+        gameManager = manager;
+        answerIndex = index;
+        answerText.text = answer;
+    }
+
+    public void AnswerChosen()
+    {
+        if (clicked) return;
+        clicked = true;
+        gameManager.userSelectedAnswer(answerIndex);
+    }
+}
