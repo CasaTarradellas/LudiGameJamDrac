@@ -25,12 +25,14 @@ public class GameplayState : BaseState
 
     public List<AnswerButton> activeButtons = new List<AnswerButton>();
 
-    [SerializeField] private float nextQuestionDelay = 0.6f; // tiempo de feedback antes de la siguiente
+    [SerializeField] private float nextQuestionDelay = 0.6f;
     private bool awaitingNext = false;
+
+    [SerializeField] private ScoreMaster scoreMaster;
 
     public override void StartState()
     {
-        if (gameManager == null) gameManager = FindObjectOfType<GameManager>();
+        if (gameManager == null) gameManager = FindFirstObjectByType<GameManager>();
 
         unansweredQuestions = questionArray?.ToList();
         if (unansweredQuestions == null || unansweredQuestions.Count == 0)
@@ -117,13 +119,22 @@ public class GameplayState : BaseState
 
         bool correct = (selectedIndex == currentQuestion.correctAnswerIndex);
 
-        // Feedback visual opcional
+        if (correct) {
+            scoreMaster.addPoints();
+            Debug.Log("Correct answer selected!");
+            Debug.Log("Score: " + scoreMaster);
+        }
+        else 
+        {
+            scoreMaster.loseLife();
+            Debug.Log("Wrong answer selected!");
+            Debug.Log("Lives left: " + scoreMaster);
+        }
+
         HighlightButtons(currentQuestion.correctAnswerIndex, selectedIndex);
 
-        // Deshabilita más clics
         SetButtonsInteractable(false);
 
-        // Programa siguiente pregunta
         StartCoroutine(NextQuestionRoutine());
     }
 
@@ -132,56 +143,49 @@ public class GameplayState : BaseState
         awaitingNext = true;
         yield return new WaitForSeconds(nextQuestionDelay);
 
-        // Quitar la pregunta actual del pool
+
         if (unansweredQuestions != null && currentQuestion != null)
             unansweredQuestions.Remove(currentQuestion);
 
-        // ¿Se terminaron?
+
         if (unansweredQuestions == null || unansweredQuestions.Count == 0)
         {
-            // Tu final (muestra GameOver o cambia de estado)
+
             if (GameOver) GameOver.SetActive(true);
             awaitingNext = false;
             yield break;
         }
 
-        // Cargar nueva pregunta
         LoadNextQuestion();
         awaitingNext = false;
     }
 
     private void LoadNextQuestion()
     {
-        // Limpia los botones anteriores
         for (int i = activeButtons.Count - 1; i >= 0; i--)
             if (activeButtons[i]) Destroy(activeButtons[i].gameObject);
         activeButtons.Clear();
 
-        // Elige otra pregunta
         int idx = Random.Range(0, unansweredQuestions.Count);
         currentQuestion = unansweredQuestions[idx];
 
         if (questionText) questionText.text = currentQuestion.question;
 
-        // Vuelve a crear respuestas con tu método (baraja y recalc. índice dentro)
         SpawnAnswers();
     }
 
     private void HighlightButtons(int correctIndex, int selectedIndex)
     {
-        // Si tus AnswerButton tienen Image/CanvasGroup, puedes dar color/alpha aquí.
-        // Si no, al menos deshabilita el incorrecto/seleccionado para que se note.
         for (int i = 0; i < activeButtons.Count; i++)
         {
             var ab = activeButtons[i];
             if (!ab) continue;
 
-            // ejemplo simple: deshabilitar botones incorrectos
             bool isCorrect = (i == correctIndex);
             bool isSelected = (i == selectedIndex);
 
             var uiBtn = ab.GetComponent<UnityEngine.UI.Button>();
-            if (uiBtn) uiBtn.interactable = isCorrect; // deja solo el correcto clicable (o todos a false)
+            if (uiBtn) uiBtn.interactable = isCorrect; 
         }
     }
 

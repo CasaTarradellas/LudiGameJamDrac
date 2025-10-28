@@ -936,6 +936,7 @@ GameObject:
   - component: {fileID: 1313732321}
   - component: {fileID: 1313732323}
   - component: {fileID: 1313732322}
+  - component: {fileID: 1313732324}
   m_Layer: 0
   m_Name: UICorazon
   m_TagString: Untagged
@@ -1003,6 +1004,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1313732320}
   m_CullTransparentMesh: 1
+--- !u!114 &1313732324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313732320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4d18a7fc5e465d46999041bcc081417, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1621131493
 GameObject:
   m_ObjectHideFlags: 0
@@ -1250,6 +1263,7 @@ MonoBehaviour:
     correctAnswerIndex: 0
   activeButtons: []
   nextQuestionDelay: 0.6
+  scoreMaster: {fileID: 0}
 --- !u!114 &1634836255
 MonoBehaviour:
   m_ObjectHideFlags: 0
