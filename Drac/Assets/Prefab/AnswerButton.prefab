@@ -38,7 +38,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_SizeDelta: {x: 855.8905, y: 855.8905}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &2479646704013180435
 Canvas:
@@ -114,6 +114,7 @@ GameObject:
   - component: {fileID: 5354710204618771730}
   - component: {fileID: 4353994627632161565}
   - component: {fileID: 2956194881861387578}
+  - component: {fileID: 8822224558050249205}
   m_Layer: 5
   m_Name: BG
   m_TagString: Untagged
@@ -168,7 +169,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 6376094690244430072, guid: 8208907c228c4ed4d9d6209972589909, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -178,6 +179,23 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8822224558050249205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822093575720640292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c4a665bbcb56554a8845bddfbb94fa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonSprites:
+  - {fileID: 6376094690244430072, guid: 8208907c228c4ed4d9d6209972589909, type: 3}
+  - {fileID: 3692153500271150559, guid: e0372937a4b0d124785304b3c5754855, type: 3}
+  - {fileID: -3329485753346686428, guid: a175c5aacbf7b414893049dd81dd3e6e, type: 3}
+  targetButtonImage: {fileID: 2956194881861387578}
 --- !u!1 &7277294220157342939
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,8 +365,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -500, y: 0}
-  m_SizeDelta: {x: 1000, y: 0}
+  m_AnchoredPosition: {x: -500, y: -141.8}
+  m_SizeDelta: {x: 1000, y: -283.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7579937876874620730
 CanvasRenderer:
@@ -405,8 +423,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 200
-  m_fontSizeBase: 200
+  m_fontSize: 180
+  m_fontSizeBase: 180
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -443,7 +461,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 149.65204, y: -77.59732, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
