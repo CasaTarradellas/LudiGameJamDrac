@@ -1154,95 +1154,95 @@ MonoBehaviour:
   GameOver: {fileID: 2125506526}
   spawnDelay: 2
   questionArray:
-  - question: Avui fa molt _______
+  - question: 2+2
     Answers:
-    - fred
-    - freda
-    - calor
-    - calenta
-    - vent
-    - "vent\xF3s"
+    - 4
+    - 6
+    - 1
+    - 3
+    - 10
+    - 7
     correctAnswerIndex: 0
-  - question: La meva germana _______ a Barcelona
+  - question: 7 x 2
     Answers:
-    - viu
-    - vivint
-    - visca
-    - vivia
-    - "viur\xE0"
-    - vivia a
+    - 14
+    - 15
+    - 11
+    - 9
+    - 10
+    - 16
     correctAnswerIndex: 0
-  - question: "Dem\xE0 anirem _______ la platja"
+  - question: 10 x 3
     Answers:
-    - a
-    - al
-    - en
-    - cap
-    - fins
-    - per
+    - 30
+    - 13
+    - 33
+    - 03
+    - 300
+    - 39
     correctAnswerIndex: 0
-  - question: "Quina hora \xE9s? \u2014 _______ les tres i mitja"
+  - question: 4/2
     Answers:
-    - "\xC9s"
-    - "Est\xE0"
-    - "S\xF3n"
-    - Seran
-    - Eren
-    - Ha estat
+    - 2
+    - 3
+    - 1
+    - 5
+    - 6
+    - 8
     correctAnswerIndex: 0
-  - question: "M\u2019agrada molt _______ llibres"
+  - question: 5 + 2
     Answers:
-    - llegir
-    - llegint
-    - llegir-me
-    - llegia
-    - llegit
-    - llegir-se
+    - 7
+    - 3
+    - 6
+    - 1
+    - 9
+    - 4
     correctAnswerIndex: 0
-  - question: "El cotxe del pare \xE9s m\xE9s _______ que el meu"
+  - question: 9 - 3
     Answers:
-    - gran
-    - grans
-    - gros
-    - grossos
-    - graner
-    - grossa
+    - 6
+    - 7
+    - 12
+    - 11
+    - 10
+    - 3
     correctAnswerIndex: 0
-  - question: On has posat _______ claus?
+  - question: 10/2
     Answers:
-    - les
-    - els
-    - la
-    - lo
-    - "l\u2019"
-    - una
+    - 5
+    - 8
+    - 6
+    - 2
+    - 3
+    - 9
     correctAnswerIndex: 0
-  - question: Si plou, _______ a casa
+  - question: 3 x 3
     Answers:
-    - quedarem
-    - quedem
-    - quedo
-    - quedava
-    - quedant
-    - "quedar\xE9"
+    - 9
+    - 6
+    - 3
+    - 1
+    - 2
+    - 10
     correctAnswerIndex: 0
-  - question: Aquest cap de setmana volem _______ a la muntanya
+  - question: "quin d'aquestes nombre \xE9s un nombre parell"
     Answers:
-    - anar
-    - anem
-    - anant
-    - anava
-    - anat
-    - aniria
+    - 2
+    - 1
+    - 3
+    - 5
+    - 7
+    - 9
     correctAnswerIndex: 0
-  - question: No tinc _______ diners per comprar-ho
+  - question: "quin d'aquestes nombre \xE9s un nombre imparell"
     Answers:
-    - gens
-    - cap
-    - algun
-    - alguns
-    - "ning\xFA"
-    - res
+    - 5
+    - 2
+    - 4
+    - 6
+    - 8
+    - 10
     correctAnswerIndex: 0
   currentQuestion:
     question: 
