@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 818a0ce89ea19a042846d9d60e2e6c36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2550837320340410592
+    second: Keyframe dragon volando_0
+  - first:
+      213: 6000262340504038174
+    second: Keyframe dragon volando_1
+  - first:
+      213: 6906951926896538959
+    second: Keyframe dragon volando_2
+  - first:
+      213: 6149983891538004504
+    second: Keyframe dragon volando_3
+  - first:
+      213: -2320909608997073325
+    second: Keyframe dragon volando_4
+  - first:
+      213: -3852429352439855975
+    second: Keyframe dragon volando_5
+  - first:
+      213: -7991208822622067203
+    second: Keyframe dragon volando_6
+  - first:
+      213: 1305039250332215815
+    second: Keyframe dragon volando_7
+  - first:
+      213: -560010792704121633
+    second: Keyframe dragon volando_8
+  - first:
+      213: -3866533413005409992
+    second: Keyframe dragon volando_9
+  - first:
+      213: -2586205103006631451
+    second: Keyframe dragon volando_10
+  - first:
+      213: 186872396165961237
+    second: Keyframe dragon volando_11
+  - first:
+      213: -4863757826047848655
+    second: Keyframe dragon volando_12
+  - first:
+      213: 2660504794576622054
+    second: Keyframe dragon volando_13
+  - first:
+      213: -6408670178944806992
+    second: Keyframe dragon volando_14
+  - first:
+      213: 2882285423170981180
+    second: Keyframe dragon volando_15
+  - first:
+      213: 2557040208143920137
+    second: Keyframe dragon volando_16
+  - first:
+      213: -3725137458589347515
+    second: Keyframe dragon volando_17
+  - first:
+      213: -5223131327372036106
+    second: Keyframe dragon volando_18
+  - first:
+      213: -6499968472673206241
+    second: Keyframe dragon volando_19
+  - first:
+      213: -5005565625114165838
+    second: Keyframe dragon volando_20
+  - first:
+      213: -8495606082247518822
+    second: Keyframe dragon volando_21
+  - first:
+      213: 4175885820234826227
+    second: Keyframe dragon volando_22
+  - first:
+      213: -3361311068524045962
+    second: Keyframe dragon volando_23
+  - first:
+      213: -5073430491337311344
+    second: Keyframe dragon volando_24
+  - first:
+      213: 2777800629449734545
+    second: Keyframe dragon volando_25
+  - first:
+      213: -6840892698459812533
+    second: Keyframe dragon volando_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Keyframe dragon volando_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1024
+        width: 502
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fec49d8fa999cd0800000000000000
+      internalID: -2550837320340410592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_1
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1025
+        width: 503
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ba5e4dec6354350800000000000000
+      internalID: 6000262340504038174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_2
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1028
+        width: 506
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f453e53de2c6adf50800000000000000
+      internalID: 6906951926896538959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_3
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1032
+        width: 511
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a4f7de3c1295550800000000000000
+      internalID: 6149983891538004504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_4
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 1037
+        width: 516
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e40ffd1097acfd0800000000000000
+      internalID: -2320909608997073325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_5
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 1042
+        width: 521
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994c88d3aeb698ac0800000000000000
+      internalID: -3852429352439855975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_6
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 1047
+        width: 525
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5e4a14ae5891190800000000000000
+      internalID: -7991208822622067203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_7
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 1046
+        width: 527
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a6ef5a84e6c1210800000000000000
+      internalID: 1305039250332215815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_8
+      rect:
+        serializedVersion: 2
+        x: 4249
+        y: 1040
+        width: 530
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd46c7ea6217a38f0800000000000000
+      internalID: -560010792704121633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_9
+      rect:
+        serializedVersion: 2
+        x: 4780
+        y: 1034
+        width: 530
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83142adb850575ac0800000000000000
+      internalID: -3866533413005409992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 518
+        width: 528
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9bcfe3924fb1cd0800000000000000
+      internalID: -2586205103006631451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_11
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 514
+        width: 524
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5165cc74477e79200800000000000000
+      internalID: 186872396165961237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_12
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 513
+        width: 518
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f44e8c606708cb0800000000000000
+      internalID: -4863757826047848655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_13
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 513
+        width: 509
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e196f3c3030ce420800000000000000
+      internalID: 2660504794576622054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_14
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 516
+        width: 501
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf0b554d64df07a0800000000000000
+      internalID: -6408670178944806992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_15
+      rect:
+        serializedVersion: 2
+        x: 2679
+        y: 520
+        width: 492
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d8465425feff720800000000000000
+      internalID: 2882285423170981180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_16
+      rect:
+        serializedVersion: 2
+        x: 3214
+        y: 525
+        width: 485
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c2fc2858e6c7320800000000000000
+      internalID: 2557040208143920137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_17
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 525
+        width: 482
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541d741d737ad4cc0800000000000000
+      internalID: -3725137458589347515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_18
+      rect:
+        serializedVersion: 2
+        x: 4276
+        y: 524
+        width: 483
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f776c82bb5b387b0800000000000000
+      internalID: -5223131327372036106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_19
+      rect:
+        serializedVersion: 2
+        x: 4806
+        y: 523
+        width: 484
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f104317cc197bc5a0800000000000000
+      internalID: -6499968472673206241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 10
+        width: 486
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdf927a598a88ab0800000000000000
+      internalID: -5005565625114165838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_21
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 9
+        width: 488
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a951df3a74b891a80800000000000000
+      internalID: -8495606082247518822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_22
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 7
+        width: 490
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f100b9570ab3f930800000000000000
+      internalID: 4175885820234826227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_23
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 6
+        width: 493
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679190564693a51d0800000000000000
+      internalID: -3361311068524045962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_24
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 5
+        width: 495
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b343b29dd8799b0800000000000000
+      internalID: -5073430491337311344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_25
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 4
+        width: 497
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199353f74fabc8620800000000000000
+      internalID: 2777800629449734545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyframe dragon volando_26
+      rect:
+        serializedVersion: 2
+        x: 3201
+        y: 4
+        width: 498
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d4db9d5544011a0800000000000000
+      internalID: -6840892698459812533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Keyframe dragon volando_0: -2550837320340410592
+      Keyframe dragon volando_1: 6000262340504038174
+      Keyframe dragon volando_10: -2586205103006631451
+      Keyframe dragon volando_11: 186872396165961237
+      Keyframe dragon volando_12: -4863757826047848655
+      Keyframe dragon volando_13: 2660504794576622054
+      Keyframe dragon volando_14: -6408670178944806992
+      Keyframe dragon volando_15: 2882285423170981180
+      Keyframe dragon volando_16: 2557040208143920137
+      Keyframe dragon volando_17: -3725137458589347515
+      Keyframe dragon volando_18: -5223131327372036106
+      Keyframe dragon volando_19: -6499968472673206241
+      Keyframe dragon volando_2: 6906951926896538959
+      Keyframe dragon volando_20: -5005565625114165838
+      Keyframe dragon volando_21: -8495606082247518822
+      Keyframe dragon volando_22: 4175885820234826227
+      Keyframe dragon volando_23: -3361311068524045962
+      Keyframe dragon volando_24: -5073430491337311344
+      Keyframe dragon volando_25: 2777800629449734545
+      Keyframe dragon volando_26: -6840892698459812533
+      Keyframe dragon volando_3: 6149983891538004504
+      Keyframe dragon volando_4: -2320909608997073325
+      Keyframe dragon volando_5: -3852429352439855975
+      Keyframe dragon volando_6: -7991208822622067203
+      Keyframe dragon volando_7: 1305039250332215815
+      Keyframe dragon volando_8: -560010792704121633
+      Keyframe dragon volando_9: -3866533413005409992
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

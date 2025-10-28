@@ -5,6 +5,11 @@ using UnityEngine.UI;
 
 public class LvlSelector : MonoBehaviour
 {
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public void NextLevel1()
     {
         SceneManager.LoadScene("Nivell_1");
