@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ScoreMaster : MonoBehaviour
 {
-    [SerializeField] private int score;
+    [SerializeField] public int score;
     [SerializeField] public int life = 3;
     public int addPoints()
     {

@@ -1,12 +1,13 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LifeGetter : MonoBehaviour
 {
-    ScoreMaster scoreMaster;
-    void Start()
-    {
-        scoreMaster = FindFirstObjectByType<ScoreMaster>();
-    }
+    [SerializeField]private ScoreMaster scoreMaster;
+
+    [SerializeField] private Image heart1;
+    [SerializeField] private Image heart2;
+    [SerializeField] private Image heart3;
     void Update()
     {
         lifeDisplay();
@@ -14,18 +15,25 @@ public class LifeGetter : MonoBehaviour
 
     void lifeDisplay()
     {
+        heart1.enabled = true;
+        heart2.enabled = true;
+        heart3.enabled = true;
+
         if (scoreMaster != null)
         {
             switch(scoreMaster)
             {
                 case { life: 2 }:
-                    GameObject.Find("Corazon3").SetActive(false);
+                    heart3.enabled = false;
                     break;
                 case { life: 1 }:
-                    GameObject.Find("Corazon2").SetActive(false);
+                    heart2.enabled = false;
+                    heart3.enabled = false;
                     break;
                 case { life: 0 }:
-                    GameObject.Find("Corazon1").SetActive(false);
+                    heart1.enabled = false;
+                    heart2.enabled = false;
+                    heart3.enabled = false;
                     break;
             }
         }

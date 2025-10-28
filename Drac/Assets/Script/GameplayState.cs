@@ -122,13 +122,13 @@ public class GameplayState : BaseState
         if (correct) {
             scoreMaster.addPoints();
             Debug.Log("Correct answer selected!");
-            Debug.Log("Score: " + scoreMaster);
+            //Debug.Log("Score: " + scoreMaster);
         }
         else 
         {
             scoreMaster.loseLife();
             Debug.Log("Wrong answer selected!");
-            Debug.Log("Lives left: " + scoreMaster);
+            //Debug.Log("Lives left: " + scoreMaster);
         }
 
         HighlightButtons(currentQuestion.correctAnswerIndex, selectedIndex);
