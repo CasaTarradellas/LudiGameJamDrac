@@ -242,7 +242,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &255930401
 RectTransform:
   m_ObjectHideFlags: 0
@@ -730,7 +730,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &339659303
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3293,7 +3293,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1416026970
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4000,7 +4000,7 @@ MonoBehaviour:
   - {fileID: 315428360}
   questionText: {fileID: 1790668046}
   GameOver: {fileID: 2125506526}
-  starGetter: {fileID: 0}
+  starGetter: {fileID: 2125506531}
   spawnDelay: 3.5
   questionArray:
   - question: Avui fa molt _______
@@ -5768,8 +5768,8 @@ RectTransform:
   - {fileID: 1999839973}
   - {fileID: 586194026}
   - {fileID: 255930401}
-  - {fileID: 339659303}
   - {fileID: 1416026970}
+  - {fileID: 339659303}
   - {fileID: 1377956108}
   - {fileID: 1484981105}
   - {fileID: 2005082392}

@@ -37,16 +37,6 @@ public class GameplayState : BaseState
         if (gameManager == null) gameManager = FindFirstObjectByType<GameManager>();
 
         unansweredQuestions = questionArray?.ToList();
-        if (unansweredQuestions == null || unansweredQuestions.Count == 0)
-        {
-            Debug.Log("All questions answered!");
-            if (GameOver)
-            {
-                GameOver.SetActive(true);
-                starGetter.starDisplay();
-            }
-            return;
-        }
 
         int randomQuestionIndex = Random.Range(0, unansweredQuestions.Count);
         currentQuestion = unansweredQuestions[randomQuestionIndex];
@@ -54,8 +44,6 @@ public class GameplayState : BaseState
         if (questionText) questionText.text = currentQuestion.question;
 
         SpawnAnswers();
-
-        Debug.Log($"{currentQuestion.question} - Correct answer: {currentQuestion.Answers[0]}");
     }
 
     public override bool UpdateState()
@@ -87,6 +75,8 @@ public class GameplayState : BaseState
 
         if (spawnRoutine != null) StopCoroutine(spawnRoutine);
         spawnRoutine = StartCoroutine(SpawnAnswersStaggered(toSpawn));
+
+        Debug.Log($"{currentQuestion.question} - Correct answer: {currentQuestion.Answers[0]}");
     }
     private IEnumerator SpawnAnswersStaggered(List<(string answer, Transform spawn)> items)
     {
@@ -157,7 +147,12 @@ public class GameplayState : BaseState
         if (unansweredQuestions == null || unansweredQuestions.Count == 0)
         {
 
-            if (GameOver) GameOver.SetActive(true);
+            if (GameOver)
+            {
+                GameOver.SetActive(true);
+                starGetter.starDisplay();
+                Time.timeScale = 0f;
+            }
             awaitingNext = false;
             yield break;
         }
