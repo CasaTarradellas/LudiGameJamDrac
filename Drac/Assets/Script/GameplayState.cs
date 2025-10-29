@@ -12,7 +12,8 @@ public class GameplayState : BaseState
     [SerializeField] private Transform[] spawnPoints;
     [SerializeField] private Text questionText;
     [SerializeField] GameObject GameOver;
-    [SerializeField] private StarGetter starGetter;
+    [SerializeField] GameObject GameLose;
+    private StarGetter starGetter;
 
 
     [SerializeField] private float spawnDelay = 2.0f;
@@ -160,7 +161,7 @@ public class GameplayState : BaseState
 
         if (scoreMaster.getLife() == 0)
         {
-            GameOver.SetActive(true);
+            GameLose.SetActive(true);
             starGetter.starDisplay();
             Time.timeScale = 0f;
         }
