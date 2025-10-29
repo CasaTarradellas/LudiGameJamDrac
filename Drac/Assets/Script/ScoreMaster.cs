@@ -16,4 +16,8 @@ public class ScoreMaster : MonoBehaviour
         return life;
     }
 
+    public int getLife()
+    {
+        return life;
+    }
 }

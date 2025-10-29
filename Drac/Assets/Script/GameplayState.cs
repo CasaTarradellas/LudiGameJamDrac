@@ -157,6 +157,14 @@ public class GameplayState : BaseState
             yield break;
         }
 
+
+        if (scoreMaster.getLife() == 0)
+        {
+            GameOver.SetActive(true);
+            starGetter.starDisplay();
+            Time.timeScale = 0f;
+        }
+
         LoadNextQuestion();
         awaitingNext = false;
     }
