@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 5b96824ec61f9fd4a89ed1f96c8464ee
   - enabled: 1
+    path: Assets/Scenes/AnimacionHistoria.unity
+    guid: 2dfed8ba27833a547bac4c38b1712a7d
+  - enabled: 1
     path: Assets/Scenes/LvlSelector.unity
     guid: 069c30d5f9d921a40aff6102ad4d8b59
   - enabled: 1
