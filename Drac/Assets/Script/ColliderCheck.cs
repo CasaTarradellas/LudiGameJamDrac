@@ -4,6 +4,11 @@ using UnityEngine;
 public class ColliderCheck : MonoBehaviour
 {
     public ParticleSystem particles;
+    [SerializeField] AudioSource audioSource;
+    public AudioClip soundEffect;
+
+
+
     void OnTriggerEnter2D(Collider2D col)
     {
         Debug.Log(col.gameObject.name);
@@ -19,6 +24,7 @@ public class ColliderCheck : MonoBehaviour
         this.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
         this.GetComponent<Animator>().SetTrigger("Collided");
         particles?.Play();
+        audioSource?.PlayOneShot(soundEffect);
         yield return new WaitForSeconds(1.0f);
         answer.AnswerChosen();
     }
