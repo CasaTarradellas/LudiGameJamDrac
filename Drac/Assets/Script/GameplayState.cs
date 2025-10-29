@@ -12,6 +12,8 @@ public class GameplayState : BaseState
     [SerializeField] private Transform[] spawnPoints;
     [SerializeField] private Text questionText;
     [SerializeField] GameObject GameOver;
+    [SerializeField] private StarGetter starGetter;
+
 
     [SerializeField] private float spawnDelay = 2.0f;
     private Coroutine spawnRoutine;
@@ -38,7 +40,11 @@ public class GameplayState : BaseState
         if (unansweredQuestions == null || unansweredQuestions.Count == 0)
         {
             Debug.Log("All questions answered!");
-            if (GameOver) GameOver.SetActive(true);
+            if (GameOver)
+            {
+                GameOver.SetActive(true);
+                starGetter.starDisplay();
+            }
             return;
         }
 
