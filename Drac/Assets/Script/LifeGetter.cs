@@ -1,41 +1,61 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class LifeGetter : MonoBehaviour
 {
-    [SerializeField]private ScoreMaster scoreMaster;
+    [SerializeField] private ScoreMaster scoreMaster;
 
     [SerializeField] private Image heart1;
     [SerializeField] private Image heart2;
     [SerializeField] private Image heart3;
+
+    [SerializeField] private Animator dracAnimator;
+
+    private static readonly int DracMalHash = Animator.StringToHash("dracMal");
+
+    private int lastLife = -1;
+    private bool hurtRoutineRunning = false;
+
     void Update()
     {
-        lifeDisplay();
+        if (scoreMaster == null) return;
+
+        int life = scoreMaster.life;
+        if (life == lastLife) return;
+
+        lastLife = life;
+        UpdateHearts(life);
+        UpdateAnimatorOnLifeChange(life);
     }
 
-    void lifeDisplay()
+    void UpdateHearts(int life)
     {
-        heart1.enabled = true;
-        heart2.enabled = true;
-        heart3.enabled = true;
+        heart1.enabled = life >= 1;
+        heart2.enabled = life >= 2;
+        heart3.enabled = life >= 3;
+    }
 
-        if (scoreMaster != null)
+    void UpdateAnimatorOnLifeChange(int life)
+    {
+        if (dracAnimator == null) return;
+
+        if (life == 2 || life == 1)
         {
-            switch(scoreMaster)
-            {
-                case { life: 2 }:
-                    heart3.enabled = false;
-                    break;
-                case { life: 1 }:
-                    heart2.enabled = false;
-                    heart3.enabled = false;
-                    break;
-                case { life: 0 }:
-                    heart1.enabled = false;
-                    heart2.enabled = false;
-                    heart3.enabled = false;
-                    break;
-            }
+            if (!hurtRoutineRunning) StartCoroutine(DracHurt());
         }
+
+    }
+
+    IEnumerator DracHurt()
+    {
+        hurtRoutineRunning = true;
+        dracAnimator.SetBool(DracMalHash, true);
+
+        yield return new WaitForSeconds(1.1f);
+
+        dracAnimator.SetBool(DracMalHash, false);
+
+        hurtRoutineRunning = false;
     }
 }

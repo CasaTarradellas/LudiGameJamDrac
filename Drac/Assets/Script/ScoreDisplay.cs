@@ -9,6 +9,6 @@ public class ScoreDisplay : MonoBehaviour
 
     void Update()
     {
-        scoreText.text = "Score: " + scoreMaster.score.ToString();
+        scoreText.text = "Puntuació: " + scoreMaster.score.ToString();
     }
 }

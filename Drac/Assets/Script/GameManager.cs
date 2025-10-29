@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    private bool dracIdle = true;
     [SerializeField] private GameplayState gameplayState;
 
     int currentState = 0;

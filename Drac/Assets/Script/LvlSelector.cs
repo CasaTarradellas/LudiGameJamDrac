@@ -19,4 +19,9 @@ public class LvlSelector : MonoBehaviour
     {
         SceneManager.LoadScene("Nivell_2");
     }
+
+    public void LVLSelector()
+    {
+        SceneManager.LoadScene("LvlSelector");
+    }
 }
